@@ -1,0 +1,15 @@
+[ModelSim]
+hdlc = $HDS_PROJECT_DIR/work/modelsim/hdlc
+[ModelSim_Invoke_Dir]
+hdlc = $HDS_PROJECT_DIR/work/sim
+[hdl]
+hdlc = $HDS_PROJECT_DIR\hdl
+[hds]
+hdlc = $HDS_PROJECT_DIR\hds
+[hds_settings]
+default_library = hdlc
+version = 3
+[library_type]
+hdlc = regular
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp

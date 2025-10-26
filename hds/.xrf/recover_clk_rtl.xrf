@@ -1,0 +1,93 @@
+DESIGN recover_clk
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN recover_clk
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN recover_clk
+VIEW symbol.sb
+GRAPHIC 276,0 14 0 
+DESIGN recover_clk
+VIEW symbol.sb
+GRAPHIC 119,0 15 0 
+DESIGN recover_clk
+VIEW symbol.sb
+GRAPHIC 124,0 16 0 
+DESIGN recover_clk
+VIEW symbol.sb
+GRAPHIC 154,0 17 0 
+DESIGN recover_clk
+VIEW symbol.sb
+GRAPHIC 1,0 20 0 
+DESIGN recover_clk
+VIEW symbol.sb
+GRAPHIC 1,0 21 0 
+DESIGN recover_clk
+VIEW rtl.bd
+NO_GRAPHIC 24
+DESIGN recover_clk
+VIEW rtl.bd
+GRAPHIC 41,0 33 0 
+DESIGN recover_clk
+VIEW rtl.bd
+NO_GRAPHIC 36
+DESIGN recover_clk
+VIEW rtl.bd
+GRAPHIC 0,0 38 2 
+DESIGN recover_clk
+VIEW rtl.bd
+GRAPHIC 1,0 41 0 
+DESIGN recover_clk
+VIEW rtl.bd
+NO_GRAPHIC 41
+DESIGN recover_clk
+VIEW rtl.bd
+GRAPHIC 246,0 47 0 
+DESIGN recover_clk
+VIEW rtl.bd
+GRAPHIC 215,0 48 0 
+DESIGN recover_clk
+VIEW rtl.bd
+GRAPHIC 203,0 49 0 
+DESIGN recover_clk
+VIEW rtl.bd
+GRAPHIC 306,0 50 0 
+DESIGN recover_clk
+VIEW rtl.bd
+NO_GRAPHIC 51
+DESIGN recover_clk
+VIEW rtl.bd
+NO_GRAPHIC 52
+DESIGN recover_clk
+VIEW rtl.bd
+GRAPHIC 1,0 53 0 
+DESIGN recover_clk
+VIEW rtl.bd
+NO_GRAPHIC 53
+DESIGN recover_clk
+VIEW rtl.bd
+NO_GRAPHIC 60
+DESIGN recover_clk
+VIEW rtl.bd
+GRAPHIC 109,0 63 0 
+DESIGN recover_clk
+VIEW rtl.bd
+NO_GRAPHIC 79
+DESIGN recover_clk
+VIEW rtl.bd
+GRAPHIC 194,0 80 0 
+DESIGN recover_clk
+VIEW rtl.bd
+NO_GRAPHIC 103
+DESIGN recover_clk
+VIEW rtl.bd
+GRAPHIC 217,0 104 0 
+DESIGN recover_clk
+VIEW rtl.bd
+NO_GRAPHIC 122
+DESIGN recover_clk
+VIEW rtl.bd
+NO_GRAPHIC 123
+DESIGN recover_clk
+VIEW rtl.bd
+NO_GRAPHIC 126
