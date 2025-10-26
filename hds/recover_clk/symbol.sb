@@ -7,10 +7,6 @@ dmPackageRefs [
 library "ieee"
 unitName "std_logic_1164"
 )
-(DmPackageRef
-library "ieee"
-unitName "std_logic_arith"
-)
 ]
 libraryRefs [
 "ieee"
@@ -135,7 +131,7 @@ font "Tahoma,10,0"
 )
 emptyMRCItem *19 (MRCItem
 litem &1
-pos 3
+pos 4
 dimension 20
 )
 uid 68,0
@@ -317,7 +313,7 @@ font "Tahoma,10,0"
 )
 emptyMRCItem *48 (MRCItem
 litem &35
-pos 3
+pos 0
 dimension 20
 )
 uid 96,0
@@ -412,23 +408,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\projects\\Nueva carpeta\\test_ise\\test_ise_lib\\hdl"
+value "T:\\hdlc\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\projects\\Nueva carpeta\\test_ise\\test_ise_lib\\hds"
+value "T:\\hdlc\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\projects\\Nueva carpeta\\test_ise\\test_ise_lib\\hds\\recover_clk\\symbol.sb.info"
+value "T:\\hdlc\\hds\\recover_clk\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\projects\\Nueva carpeta\\test_ise\\test_ise_lib\\hds\\recover_clk\\symbol.sb.user"
+value "T:\\hdlc\\hds\\recover_clk\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\projects\\Nueva carpeta\\test_ise\\test_ise_lib\\hds"
+value "T:\\hdlc\\hds"
 )
 (vvPair
 variable "appl"
@@ -444,11 +440,11 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\projects\\Nueva carpeta\\test_ise\\test_ise_lib\\hds\\recover_clk"
+value "T:\\hdlc\\hds\\recover_clk"
 )
 (vvPair
 variable "d_logical"
-value "C:\\projects\\Nueva carpeta\\test_ise\\test_ise_lib\\hds\\recover_clk"
+value "T:\\hdlc\\hds\\recover_clk"
 )
 (vvPair
 variable "date"
@@ -504,7 +500,7 @@ value "IBIZA"
 )
 (vvPair
 variable "graphical_source_time"
-value "16:55:03"
+value "17:32:30"
 )
 (vvPair
 variable "group"
@@ -520,11 +516,15 @@ value "VHDL"
 )
 (vvPair
 variable "library"
-value "test_ise"
+value "hdlc"
 )
 (vvPair
 variable "library_downstream_ModelSimCompiler"
-value "$HDS_PROJECT_DIR/test_ise/modelsim"
+value "$HDS_PROJECT_DIR/work/modelsim/hdlc"
+)
+(vvPair
+variable "library_downstream_ModelSimSimulator"
+value "$HDS_PROJECT_DIR/work/sim"
 )
 (vvPair
 variable "mm"
@@ -544,11 +544,11 @@ value "octubre"
 )
 (vvPair
 variable "p"
-value "C:\\projects\\Nueva carpeta\\test_ise\\test_ise_lib\\hds\\recover_clk\\symbol.sb"
+value "T:\\hdlc\\hds\\recover_clk\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "C:\\projects\\Nueva carpeta\\test_ise\\test_ise_lib\\hds\\recover_clk\\symbol.sb"
+value "T:\\hdlc\\hds\\recover_clk\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -556,7 +556,7 @@ value "<Undefined Variable>"
 )
 (vvPair
 variable "project_name"
-value "test_ise"
+value "hdlc"
 )
 (vvPair
 variable "series"
@@ -604,7 +604,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "16:55:03"
+value "17:32:30"
 )
 (vvPair
 variable "unit"
@@ -640,6 +640,19 @@ uid 8,0
 optionalChildren [
 *60 (CptPort
 uid 119,0
+optionalChildren [
+*61 (Circle
+uid 652,0
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+lineColor "0,32896,0"
+lineWidth 2
+)
+xt "14092,24546,15000,25454"
+radius 454
+)
+]
 ps "OnEdgeStrategy"
 shape (Triangle
 uid 120,0
@@ -648,7 +661,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,7625,15000,8375"
+xt "13342,24625,14092,25375"
 )
 tg (CPTG
 uid 121,0
@@ -658,9 +671,9 @@ f (Text
 uid 122,0
 va (VaSet
 )
-xt "16000,7500,18100,8500"
+xt "16000,24500,18100,25500"
 st "rst_n"
-blo "16000,8300"
+blo "16000,25300"
 tm "CptPortNameMgr"
 )
 )
@@ -682,7 +695,7 @@ suid 2,0
 )
 )
 )
-*61 (CptPort
+*62 (CptPort
 uid 124,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -692,7 +705,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,8625,15000,9375"
+xt "14250,19625,15000,20375"
 )
 tg (CPTG
 uid 126,0
@@ -702,9 +715,9 @@ f (Text
 uid 127,0
 va (VaSet
 )
-xt "16000,8500,17100,9500"
+xt "16000,19500,17100,20500"
 st "rx"
-blo "16000,9300"
+blo "16000,20300"
 tm "CptPortNameMgr"
 )
 )
@@ -726,7 +739,7 @@ suid 3,0
 )
 )
 )
-*62 (CptPort
+*63 (CptPort
 uid 154,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -736,7 +749,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "33000,6625,33750,7375"
+xt "33000,19625,33750,20375"
 )
 tg (CPTG
 uid 156,0
@@ -746,10 +759,10 @@ f (Text
 uid 157,0
 va (VaSet
 )
-xt "28700,6500,32000,7500"
+xt "28700,19500,32000,20500"
 st "freq_tick"
 ju 2
-blo "32000,7300"
+blo "32000,20300"
 tm "CptPortNameMgr"
 )
 )
@@ -772,8 +785,26 @@ suid 4,0
 )
 )
 )
-*63 (CptPort
+*64 (CptPort
 uid 276,0
+optionalChildren [
+*65 (FFT
+pts [
+"15750,24000"
+"15000,24375"
+"15000,23625"
+]
+uid 651,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+lineColor "0,32896,0"
+lineWidth 2
+)
+xt "15000,23625,15750,24375"
+)
+]
 ps "OnEdgeStrategy"
 shape (Triangle
 uid 277,0
@@ -782,7 +813,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,9625,15000,10375"
+xt "14250,23625,15000,24375"
 )
 tg (CPTG
 uid 278,0
@@ -792,9 +823,9 @@ f (Text
 uid 279,0
 va (VaSet
 )
-xt "16000,9500,17400,10500"
+xt "16000,23500,17400,24500"
 st "clk"
-blo "16000,10300"
+blo "16000,24300"
 tm "CptPortNameMgr"
 )
 )
@@ -818,14 +849,14 @@ suid 5,0
 )
 ]
 shape (Rectangle
-uid 9,0
+uid 649,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "15000,6000,33000,26000"
+xt "15000,19000,33000,26000"
 )
 biTextGroup (BiTextGroup
 uid 10,0
@@ -836,21 +867,21 @@ uid 11,0
 va (VaSet
 font "Arial,8,1"
 )
-xt "22200,15000,25400,16000"
-st "test_ise"
-blo "22200,15800"
+xt "15200,16000,17200,17000"
+st "hdlc"
+blo "15200,16800"
 )
 second (Text
 uid 12,0
 va (VaSet
 font "Arial,8,1"
 )
-xt "22200,16000,27200,17000"
+xt "15200,17000,20200,18000"
 st "recover_clk"
-blo "22200,16800"
+blo "15200,17800"
 )
 )
-gi *64 (GenericInterface
+gi *66 (GenericInterface
 uid 13,0
 ps "CenterOffsetStrategy"
 matrix (Matrix
@@ -860,7 +891,7 @@ uid 15,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "0,12000,11500,12800"
+xt "15000,26200,26500,27000"
 st "Generic Declarations"
 )
 header "Generic Declarations"
@@ -877,10 +908,10 @@ portVis (PortSigDisplay
 sIVOD 1
 )
 )
-*65 (Grouping
+*67 (Grouping
 uid 16,0
 optionalChildren [
-*66 (CommentText
+*68 (CommentText
 uid 18,0
 shape (Rectangle
 uid 19,0
@@ -911,7 +942,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*67 (CommentText
+*69 (CommentText
 uid 21,0
 shape (Rectangle
 uid 22,0
@@ -942,7 +973,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*68 (CommentText
+*70 (CommentText
 uid 24,0
 shape (Rectangle
 uid 25,0
@@ -973,7 +1004,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*69 (CommentText
+*71 (CommentText
 uid 27,0
 shape (Rectangle
 uid 28,0
@@ -1004,7 +1035,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*70 (CommentText
+*72 (CommentText
 uid 30,0
 shape (Rectangle
 uid 31,0
@@ -1034,7 +1065,7 @@ visibleWidth 20000
 ignorePrefs 1
 titleBlock 1
 )
-*71 (CommentText
+*73 (CommentText
 uid 33,0
 shape (Rectangle
 uid 34,0
@@ -1052,7 +1083,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "57200,44000,60200,45000"
+xt "57200,44000,59000,45000"
 st "
 %project_name
 "
@@ -1065,7 +1096,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*72 (CommentText
+*74 (CommentText
 uid 36,0
 shape (Rectangle
 uid 37,0
@@ -1096,7 +1127,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*73 (CommentText
+*75 (CommentText
 uid 39,0
 shape (Rectangle
 uid 40,0
@@ -1127,7 +1158,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*74 (CommentText
+*76 (CommentText
 uid 42,0
 shape (Rectangle
 uid 43,0
@@ -1158,7 +1189,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*75 (CommentText
+*77 (CommentText
 uid 45,0
 shape (Rectangle
 uid 46,0
@@ -1176,7 +1207,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,47000,46900,48000"
+xt "36200,47000,45700,48000"
 st "
 %library/%unit/%view
 "
@@ -1214,11 +1245,11 @@ xShown 1
 yShown 1
 color "26368,26368,26368"
 )
-packageList *76 (PackageList
+packageList *78 (PackageList
 uid 48,0
 stg "VerticalLayoutStrategy"
 textVec [
-*77 (Text
+*79 (Text
 uid 49,0
 va (VaSet
 font "arial,8,1"
@@ -1227,21 +1258,21 @@ xt "0,0,5400,1000"
 st "Package List"
 blo "0,800"
 )
-*78 (MLText
+*80 (MLText
 uid 50,0
 va (VaSet
 )
-xt "0,1000,10800,4000"
-st "LIBRARY ieee;
-USE ieee.std_logic_1164.all;
-USE ieee.std_logic_arith.all;"
+xt "0,1000,10400,3000"
+st "library ieee;
+use ieee.std_logic_1164.all;"
 tm "PackageList"
 )
 ]
 )
-windowSize "0,0,1015,690"
-viewArea "0,0,0,0"
-cachedDiagramExtent "0,0,0,0"
+windowSize "76,48,1093,738"
+viewArea "-30400,-4292,35876,40732"
+cachedDiagramExtent "0,0,73000,49000"
+hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
 defaultCommentText (CommentText
 shape (Rectangle
@@ -1353,7 +1384,7 @@ st "<cell>"
 blo "22200,16800"
 )
 )
-gi *79 (GenericInterface
+gi *81 (GenericInterface
 ps "CenterOffsetStrategy"
 matrix (Matrix
 text (MLText
@@ -1452,7 +1483,7 @@ o 0
 )
 )
 )
-DeclarativeBlock *80 (SymDeclBlock
+DeclarativeBlock *82 (SymDeclBlock
 uid 1,0
 stg "SymDeclLayoutStrategy"
 declLabel (Text
@@ -1510,6 +1541,8 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 579,0
-activeModelName "Symbol:CDM"
+lastUid 652,0
+okToSyncOnLoad 1
+OkToSyncGenericsOnLoad 1
+activeModelName "Symbol"
 )
