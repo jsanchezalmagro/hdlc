@@ -1,3 +1,4 @@
+% -----------------------------------------------------------------------------
 proc hdlc_composer {dir ctrl data} {
     set flag "01111110"
     set buffer [format %08b $dir]
@@ -21,18 +22,49 @@ proc hdlc_composer {dir ctrl data} {
     }
     return $buffer_tx
 }
+% -----------------------------------------------------------------------------
+proc buffer_to_byte {buffer_bin} {
+    set grupos [regexp -all -inline {........} $buffer_bin]
+    set buffer_byte {}
+    foreach g $grupos {
+        scan $g %b value
+        lappend buffer_byte $value
+    }
+    return $buffer_byte
+}
+% -----------------------------------------------------------------------------
+proc crc_ccitt16 {buffer_byte} {
+    set crc 0xFFFF
+    set poly 0x1021
+
+    foreach b $buffer_byte {
+        # Asegurar que el valor está entre 0 y 255
+        set b [expr {$b & 0xFF}]
+
+        # XOR inicial con el byte desplazado
+        set crc [expr {$crc ^ ($b << 8)}]
+
+        # Procesar 8 bits
+        for {set i 0} {$i < 8} {incr i} {
+            if {$crc & 0x8000} {
+                set crc [expr {(($crc << 1) ^ $poly) & 0xFFFF}]
+            } else {
+                set crc [expr {( $crc << 1 ) & 0xFFFF}]
+            }
+        }
+    }
+    return [format %016b $crc]
+}
+% -----------------------------------------------------------------------------
+
 set dir 123
 set ctrl 0x1
 set data "0xFFFFFFFF 0xAABBCCDD 0X11223344"
-set buffer_data [hdlc_composer $dir $ctrl $data]
 
-set grupos [regexp -all -inline {........} $buffer_data]
-set buffer_int {}
-foreach g $grupos {
-    scan $g %b value
-    lappend buffer_int $value
-}
-puts $buffer_int
+set buffer_bin [hdlc_composer $dir $ctrl $data]
+
+
+
 
 proc crc_ccitt16 {byteList} {
     set crc 0xFFFF
@@ -55,7 +87,7 @@ proc crc_ccitt16 {byteList} {
         }
     }
 
-    return $crc
+    return [format %016b $crc]
 }
 
 puts [ format %016b [crc_ccitt16 $buffer_int]]
