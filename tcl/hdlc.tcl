@@ -1,6 +1,5 @@
 % -----------------------------------------------------------------------------
 proc hdlc_composer {dir ctrl data} {
-    set flag "01111110"
     set buffer [format %08b $dir]
     append buffer [format %08b $ctrl]
     foreach word $data {
@@ -56,6 +55,18 @@ proc crc_ccitt16 {buffer_byte} {
     return [format %016b $crc]
 }
 % -----------------------------------------------------------------------------
+proc reverse_string {s} {
+    set out ""
+    set len [string length $s]
+
+    for {set i [expr {$len - 1}]} {$i >= 0} {incr i -1} {
+        append out [string index $s $i]
+    }
+
+    return $out
+}
+
+
 
 set dir 123
 set ctrl 0x1
