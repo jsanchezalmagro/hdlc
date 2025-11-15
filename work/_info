@@ -1,0 +1,78 @@
+m255
+K4
+z2
+!s11e vcom 2024.3_2 2024.11, Nov 25 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dT:/hdlc_new/hdlclib/work
+Eagent_hdlc
+Z1 w1763240202
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+Z5 dT:/agent_hdlc/work
+Z6 8T:/agent_hdlc/hdl/agent_hdlc_rtl.vhd
+Z7 FT:/agent_hdlc/hdl/agent_hdlc_rtl.vhd
+l0
+L13 1
+V<d7Y]m[2J?DibKTZ;ES?R2
+!s100 j7hOg?C7HU6K`h]P8d?cS1
+Z8 OL;C;2024.3_2;79
+33
+Z9 !s110 1763240206
+!i10b 1
+Z10 !s108 1763240206.000000
+Z11 !s90 -work|agent_hdlc|-nologo|-2008|-f|C:/Users/harry/AppData/Local/Temp/Files0|
+!s107 T:/agent_hdlc/hdl/agent_hdlc_rtl.vhd|
+!i113 0
+Z12 o-nologo -work agent_hdlc -2008
+Z13 tExplicit 1 CvgOpt 0
+Artl
+DEx4 work 10 agent_hdlc 0 22 <d7Y]m[2J?DibKTZ;ES?R2
+R2
+R3
+R4
+!i122 1
+l62
+Z14 L37 94
+VS1BH2_R]TPR5Id8k5=QC>1
+!s100 4XVB?HUdiZPLPB>J<TdE_2
+R8
+33
+R9
+!i10b 1
+R10
+R11
+Z15 !s107 T:/agent_hdlc/hdl/agent_hdlc_rtl.vhd|
+!i113 0
+R12
+R13
+Astruct
+DEx4 work 10 agent_hdlc 0 22 >i@JoMOBzJdg<Ykg0bGL<3
+R2
+R3
+R4
+!i122 0
+l62
+R14
+Vz>G]^;n?@2nTBklTMk2bi3
+!s100 @dQjH]@3EC2mYE2S1<cSh0
+R8
+33
+!s110 1763239532
+!i10b 1
+!s108 1763239532.000000
+!s90 -work|hdlclib|-nologo|-2008|-f|C:/Users/harry/AppData/Local/Temp/Files0|
+!s107 T:/hdlc_new/hdlclib/hdl/agent_hdlc_struct.vhd|
+!i113 0
+o-nologo -work hdlclib -2008
+R13
+R0
+FT:/hdlc_new/hdlclib/hdl/agent_hdlc_struct.vhd
+w1763239376
+8T:/hdlc_new/hdlclib/hdl/agent_hdlc_struct.vhd

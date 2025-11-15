@@ -1,3 +1,0 @@
-DEFAULT_ARCHITECTURE atom beh
-DEFAULT_FILE atom setup_recovery_clk/beh.bd
-TOP_MARKER atom 1

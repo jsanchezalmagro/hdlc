@@ -1,0 +1,15 @@
+[ModelSim]
+agent_hdlc = $HDS_PROJECT_DIR/work
+[QuestaSim]
+agent_hdlc = $HDS_PROJECT_DIR/work
+[hdl]
+agent_hdlc = $HDS_PROJECT_DIR/hdl
+[hds]
+agent_hdlc = $HDS_PROJECT_DIR/hds
+[hds_settings]
+default_library = agent_hdlc
+version = 2
+[library_type]
+agent_hdlc = regular
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp
