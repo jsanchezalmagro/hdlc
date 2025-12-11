@@ -1,0 +1,3 @@
+DEFAULT_FILE atom snrf031_mb/rtl.bd
+DEFAULT_ARCHITECTURE atom rtl
+TOP_MARKER atom 1

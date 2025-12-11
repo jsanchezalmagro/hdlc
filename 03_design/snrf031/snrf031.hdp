@@ -1,0 +1,23 @@
+[DesignChecker]
+snrf031 = $PROJECT_ROOT/03_design/snrf031/designcheck
+
+[ModelSim]
+snrf031 = $PROJECT_ROOT/work/modelsim/snrf031
+
+[QuestaSim]
+snrf031 = $PROJECT_ROOT/work/questasim/snrf031
+
+[Synplify]
+snrf031 = $PROJECT_ROOT/work/synplify/snrf031
+
+[hdl]
+snrf031 = $PROJECT_ROOT/03_design/snrf031/hdl
+
+[hds]
+snrf031 = $PROJECT_ROOT/03_design/snrf031/hds
+
+[library_files_inclusion]
+snrf031 = all
+
+[library_type]
+snrf031 = regular

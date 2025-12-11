@@ -1,0 +1,2 @@
+DEFAULT_FILE atom fsi_core_eth_rx/rtl.bd
+DEFAULT_ARCHITECTURE atom rtl

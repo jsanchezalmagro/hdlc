@@ -1,0 +1,632 @@
+DESIGN fsi_core_eth
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 18,0 5 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 13,0 9 1 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 81,0 13 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 86,0 14 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 91,0 15 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 96,0 16 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 101,0 17 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 106,0 18 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 111,0 19 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 1099,0 20 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 1141,0 21 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 1474,0 22 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 1486,0 23 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 1111,0 24 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 1153,0 25 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 1480,0 26 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 1492,0 27 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 131,0 28 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 126,0 29 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 136,0 30 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 76,0 31 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 2471,0 32 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 1992,0 33 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 615,0 34 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 1915,0 35 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 600,0 36 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 334,0 37 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 156,0 38 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 819,0 39 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 825,0 40 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 831,0 41 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 2368,0 42 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 121,0 43 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 116,0 44 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 1183,0 48 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 1105,0 49 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 1147,0 50 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 1135,0 51 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 1177,0 52 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 1129,0 53 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 1171,0 54 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 1195,0 58 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 146,0 59 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 141,0 60 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 151,0 61 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 319,0 62 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 324,0 63 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 329,0 64 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 2751,0 65 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 2739,0 66 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 2745,0 67 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 837,0 68 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 1189,0 69 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 1201,0 70 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 1,0 73 0 
+DESIGN fsi_core_eth
+VIEW symbol.sb
+GRAPHIC 1,0 74 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+NO_GRAPHIC 77
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 2040,0 77 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 81,0 123 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+NO_GRAPHIC 125
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 0,0 127 2 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 5486,0 132 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 5484,0 133 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 278,0 134 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 304,0 135 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 316,0 136 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 292,0 137 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 364,0 138 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 328,0 139 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 352,0 140 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 340,0 141 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 232,0 142 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 916,0 143 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+NO_GRAPHIC 144
+DESIGN fsi_core_eth
+VIEW rtl.bd
+NO_GRAPHIC 145
+LIBRARY snrf031
+DESIGN fsi_core_eth_mdio
+VIEW rtl
+GRAPHIC 9127,0 147 0 
+DESIGN fsi_core_eth_mdio
+VIEW symbol.sb
+GRAPHIC 14,0 148 1 
+DESIGN fsi_core_eth_mdio
+VIEW rtl
+GRAPHIC 242,0 152 0 
+DESIGN fsi_core_eth_mdio
+VIEW rtl
+GRAPHIC 248,0 153 0 
+DESIGN fsi_core_eth_mdio
+VIEW rtl
+GRAPHIC 36,0 154 0 
+DESIGN fsi_core_eth_mdio
+VIEW rtl
+GRAPHIC 41,0 155 0 
+DESIGN fsi_core_eth_mdio
+VIEW rtl
+GRAPHIC 406,0 156 0 
+DESIGN fsi_core_eth_mdio
+VIEW rtl
+GRAPHIC 31,0 157 0 
+DESIGN fsi_core_eth_mdio
+VIEW rtl
+GRAPHIC 412,0 158 0 
+DESIGN fsi_core_eth_mdio
+VIEW rtl
+GRAPHIC 56,0 159 0 
+DESIGN fsi_core_eth_mdio
+VIEW rtl
+GRAPHIC 61,0 160 0 
+DESIGN fsi_core_eth_mdio
+VIEW rtl
+GRAPHIC 66,0 161 0 
+DESIGN fsi_core_eth_mdio
+VIEW rtl
+GRAPHIC 71,0 162 0 
+DESIGN fsi_core_eth_mdio
+VIEW rtl
+GRAPHIC 1014,0 163 0 
+DESIGN fsi_core_eth_mdio
+VIEW rtl
+GRAPHIC 1008,0 164 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 6879,0 167 0 
+DESIGN fsi_core_eth_rx
+VIEW symbol.sb
+GRAPHIC 196,0 169 0 
+DESIGN fsi_core_eth_rx
+VIEW symbol.sb
+GRAPHIC 201,0 170 0 
+DESIGN fsi_core_eth_rx
+VIEW symbol.sb
+GRAPHIC 181,0 171 0 
+DESIGN fsi_core_eth_rx
+VIEW symbol.sb
+GRAPHIC 186,0 172 0 
+DESIGN fsi_core_eth_rx
+VIEW symbol.sb
+GRAPHIC 191,0 173 0 
+DESIGN fsi_core_eth_rx
+VIEW symbol.sb
+GRAPHIC 176,0 174 0 
+DESIGN fsi_core_eth_rx
+VIEW symbol.sb
+GRAPHIC 108,0 175 0 
+DESIGN fsi_core_eth_rx
+VIEW symbol.sb
+GRAPHIC 103,0 176 0 
+DESIGN fsi_core_eth_rx
+VIEW symbol.sb
+GRAPHIC 98,0 177 0 
+DESIGN fsi_core_eth_rx
+VIEW symbol.sb
+GRAPHIC 88,0 178 0 
+DESIGN fsi_core_eth_rx
+VIEW symbol.sb
+GRAPHIC 1585,0 179 0 
+DESIGN fsi_core_eth_rx
+VIEW symbol.sb
+GRAPHIC 1038,0 180 0 
+DESIGN fsi_core_eth_rx
+VIEW symbol.sb
+GRAPHIC 1344,0 181 0 
+DESIGN fsi_core_eth_rx
+VIEW symbol.sb
+GRAPHIC 93,0 182 0 
+DESIGN fsi_core_eth_rx
+VIEW symbol.sb
+GRAPHIC 731,0 183 0 
+DESIGN fsi_core_eth_rx
+VIEW symbol.sb
+GRAPHIC 1329,0 184 0 
+DESIGN fsi_core_eth_rx
+VIEW symbol.sb
+GRAPHIC 1339,0 185 0 
+DESIGN fsi_core_eth_rx
+VIEW symbol.sb
+GRAPHIC 1334,0 186 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 6977,0 189 0 
+DESIGN fsi_core_eth_tx
+VIEW symbol.sb
+GRAPHIC 100,0 191 0 
+DESIGN fsi_core_eth_tx
+VIEW symbol.sb
+GRAPHIC 105,0 192 0 
+DESIGN fsi_core_eth_tx
+VIEW symbol.sb
+GRAPHIC 1813,0 193 0 
+DESIGN fsi_core_eth_tx
+VIEW symbol.sb
+GRAPHIC 1038,0 194 0 
+DESIGN fsi_core_eth_tx
+VIEW symbol.sb
+GRAPHIC 1099,0 195 0 
+DESIGN fsi_core_eth_tx
+VIEW symbol.sb
+GRAPHIC 110,0 196 0 
+DESIGN fsi_core_eth_tx
+VIEW symbol.sb
+GRAPHIC 1436,0 197 0 
+DESIGN fsi_core_eth_tx
+VIEW symbol.sb
+GRAPHIC 1446,0 198 0 
+DESIGN fsi_core_eth_tx
+VIEW symbol.sb
+GRAPHIC 1441,0 199 0 
+DESIGN fsi_core_eth_tx
+VIEW symbol.sb
+GRAPHIC 115,0 200 0 
+DESIGN fsi_core_eth_tx
+VIEW symbol.sb
+GRAPHIC 95,0 201 0 
+DESIGN fsi_core_eth_tx
+VIEW symbol.sb
+GRAPHIC 90,0 202 0 
+DESIGN fsi_core_eth_tx
+VIEW symbol.sb
+GRAPHIC 159,0 203 0 
+DESIGN fsi_core_eth_tx
+VIEW symbol.sb
+GRAPHIC 154,0 204 0 
+DESIGN fsi_core_eth_tx
+VIEW symbol.sb
+GRAPHIC 164,0 205 0 
+DESIGN fsi_core_eth_tx
+VIEW symbol.sb
+GRAPHIC 1547,0 206 0 
+LIBRARY snrf031
+DESIGN fsi_core_eth
+VIEW rtl.bd
+NO_GRAPHIC 209
+DESIGN fsi_core_eth
+VIEW rtl.bd
+NO_GRAPHIC 210
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 372,0 213 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+NO_GRAPHIC 232
+DESIGN fsi_core_eth
+VIEW rtl.bd
+NO_GRAPHIC 233
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 4147,0 235 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 3888,0 237 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 3528,0 239 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 3104,0 241 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 2337,0 243 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 2253,0 245 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 9127,0 247 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 9134,0 248 1 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 2502,0 252 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 2510,0 253 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 2454,0 254 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 2446,0 255 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 2462,0 256 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 2438,0 257 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 2470,0 258 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 2478,0 259 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 2486,0 260 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 2720,0 261 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 2739,0 262 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 8480,0 263 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 4068,0 266 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 3607,0 268 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 3189,0 270 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 3019,0 272 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 2430,0 274 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 2433,0 276 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 9061,0 278 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 9068,0 279 1 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 2674,0 283 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 2696,0 284 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 2656,0 285 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 2638,0 286 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 2644,0 287 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 2668,0 288 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 2662,0 289 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 2650,0 290 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 2690,0 291 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 2791,0 292 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 2844,0 293 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 8474,0 294 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 8468,0 295 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 6879,0 297 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 13972,0 299 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 13980,0 300 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 13948,0 301 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 13956,0 302 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 13964,0 303 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 13940,0 304 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 13932,0 305 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 13924,0 306 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 13916,0 307 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 240,0 308 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 6903,0 309 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 256,0 310 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 318,0 311 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 248,0 312 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 264,0 313 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 280,0 314 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 306,0 315 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 294,0 316 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 6977,0 318 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 14036,0 320 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 14028,0 321 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 6986,0 322 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 13988,0 323 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 226,0 324 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 14020,0 325 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 366,0 326 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 330,0 327 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 342,0 328 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 234,0 329 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 14044,0 330 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 14052,0 331 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 14004,0 332 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 14012,0 333 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 13996,0 334 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+GRAPHIC 354,0 335 0 
+DESIGN fsi_core_eth
+VIEW rtl.bd
+NO_GRAPHIC 338

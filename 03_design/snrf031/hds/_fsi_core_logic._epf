@@ -1,0 +1,2 @@
+DEFAULT_FILE atom fsi_core_logic/rtl.bd
+DEFAULT_ARCHITECTURE atom rtl

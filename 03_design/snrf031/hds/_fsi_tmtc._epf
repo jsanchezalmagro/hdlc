@@ -1,0 +1,2 @@
+DEFAULT_FILE atom fsi_tmtc/rtl.bd
+DEFAULT_ARCHITECTURE atom rtl

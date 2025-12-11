@@ -1,0 +1,40 @@
+set -xsthdpdir ./xst
+
+run
+-ifn snrf031.prj
+-ifmt mixed
+-ofn snrf031
+-ofmt NGC
+-top snrf031
+-p xc6vlx75tl-ff784-1L
+-opt_mode Area
+-opt_level 2
+-fsm_encoding One-Hot
+-rtlview NO
+-iuc NO
+-resource_sharing YES
+-safe_implementation NO
+-bus_delimiter <>
+-uc C:/projects/eurodrone_wb_mdm/03_design/snrf031/ise/snrf031_rtl/snrf031.xcf
+-write_timing_constraints YES
+-read_cores YES
+-sd ./cores
+-shreg_extract YES
+-fsm_extract YES
+-fsm_style lut
+-ram_extract YES
+-ram_style Block
+-rom_extract YES
+-rom_style Auto
+-cross_clock_analysis YES
+-iob Auto
+-iobuf YES
+-keep_hierarchy YES
+-optimize_primitives NO
+-move_first_stage YES
+-move_last_stage YES
+-register_duplication YES
+-slice_utilization_ratio 100
+-slice_utilization_ratio_maxmargin 5
+-glob_opt allclocknets
+-register_balancing No

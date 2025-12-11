@@ -1,0 +1,216 @@
+DESIGN fsi_core_bus
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 18,0 5 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 13,0 9 1 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 1861,0 14 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 1871,0 15 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 1866,0 16 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 1384,0 17 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 2178,0 18 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 2857,0 19 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 2123,0 20 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 2133,0 21 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 2510,0 22 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 2153,0 23 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 2108,0 24 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 1846,0 25 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 2852,0 26 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 1876,0 27 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 1389,0 28 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 2118,0 29 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 2867,0 30 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 2113,0 31 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 2128,0 32 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 2515,0 33 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 2158,0 34 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 2163,0 35 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 1851,0 36 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 2862,0 37 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 1394,0 38 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 2138,0 39 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 2877,0 40 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 2143,0 41 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 2098,0 42 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 2520,0 43 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 2103,0 44 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 2148,0 45 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 1856,0 46 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 2872,0 47 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 1950,0 48 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 1955,0 49 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 2168,0 50 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 1369,0 51 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 2183,0 52 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 2847,0 53 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 2198,0 54 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 2188,0 55 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 2505,0 56 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 2193,0 57 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 2173,0 58 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 1831,0 59 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 2842,0 60 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 2203,0 61 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 1945,0 62 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 2208,0 63 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 1886,0 64 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 1881,0 65 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 1,0 68 0 
+DESIGN fsi_core_bus
+VIEW symbol.sb
+GRAPHIC 1,0 69 0 
+DESIGN fsi_core_bus
+VIEW rtl.bd
+NO_GRAPHIC 72
+DESIGN fsi_core_bus
+VIEW rtl.bd
+GRAPHIC 777,0 72 0 
+DESIGN fsi_core_bus
+VIEW rtl.bd
+NO_GRAPHIC 78
+DESIGN fsi_core_bus
+VIEW rtl.bd
+GRAPHIC 0,0 80 2 
+DESIGN fsi_core_bus
+VIEW rtl.bd
+GRAPHIC 1,0 83 0 
+DESIGN fsi_core_bus
+VIEW rtl.bd
+NO_GRAPHIC 83
+DESIGN fsi_core_bus
+VIEW rtl.bd
+NO_GRAPHIC 98
+DESIGN fsi_core_bus
+VIEW rtl.bd
+NO_GRAPHIC 99
+DESIGN fsi_core_bus
+VIEW rtl.bd
+GRAPHIC 1,0 100 0 
+DESIGN fsi_core_bus
+VIEW rtl.bd
+NO_GRAPHIC 100
+DESIGN fsi_core_bus
+VIEW rtl.bd
+NO_GRAPHIC 108
+DESIGN fsi_core_bus
+VIEW rtl.bd
+GRAPHIC 1015,0 111 0 
+DESIGN fsi_core_bus
+VIEW rtl.bd
+NO_GRAPHIC 196
+DESIGN fsi_core_bus
+VIEW rtl.bd
+NO_GRAPHIC 197
+DESIGN fsi_core_bus
+VIEW rtl.bd
+NO_GRAPHIC 200

@@ -1,0 +1,6286 @@
+DocumentHdrVersion "1.1"
+Header (DocumentHdr
+version 2
+dialect 2
+dmPackageRefs [
+(DmPackageRef
+library "ieee"
+unitName "std_logic_1164"
+)
+]
+instances [
+(Instance
+name "i_tmtc"
+duLibraryName "snrf031"
+duName "fsi_core_logic_tmtc"
+elements [
+(GiElement
+name "g_add_size"
+type "integer"
+value "g_add_size"
+)
+]
+mwi 0
+uid 296,0
+)
+(Instance
+name "i_fl_rx"
+duLibraryName "fsi_adt_fl"
+duName "fsi_adt_fl"
+elements [
+]
+mwi 0
+uid 300,0
+)
+(Instance
+name "i_rl_tx"
+duLibraryName "fsi_adt_rl"
+duName "fsi_adt_rl"
+elements [
+]
+mwi 0
+uid 304,0
+)
+(Instance
+name "i_fl_tx"
+duLibraryName "fsi_gdt_fl"
+duName "fsi_gdt_fl"
+elements [
+]
+mwi 0
+uid 308,0
+)
+(Instance
+name "i_rl_rx"
+duLibraryName "fsi_gdt_rl"
+duName "fsi_gdt_rl"
+elements [
+]
+mwi 0
+uid 312,0
+)
+]
+embeddedInstances [
+(EmbeddedInstance
+name "p_mux_rx"
+number "25"
+)
+(EmbeddedInstance
+name "p_mux_tx"
+number "26"
+)
+(EmbeddedInstance
+name "p_eth_tx"
+number "27"
+)
+(EmbeddedInstance
+name "p_eth_rx"
+number "28"
+)
+]
+properties [
+(HdrProperty
+class "HDS"
+name "SynchronizedView"
+value "rtl.bd"
+)
+]
+libraryRefs [
+"ieee"
+"fsi_adt_rl"
+"fsi_adt_fl"
+"fsi_gdt_rl"
+"fsi_gdt_fl"
+]
+)
+version "31.1"
+newIbd 1
+appVersion "2017.1a (Build 5)"
+noEmbeddedEditors 1
+model (IbdDiag
+VExpander (VariableExpander
+vvMap [
+(vvPair
+variable "HDLDir"
+value "T:\\eurodrone_wb_mdm\\alicia.bermejo\\03_fw\\03_design\\snrf031\\hdl"
+)
+(vvPair
+variable "HDSDir"
+value "T:\\eurodrone_wb_mdm\\alicia.bermejo\\03_fw\\03_design\\snrf031\\hds"
+)
+(vvPair
+variable "SideDataDesignDir"
+value "T:\\eurodrone_wb_mdm\\alicia.bermejo\\03_fw\\03_design\\snrf031\\hds\\fsi_core_logic\\rtl.ibd.info"
+)
+(vvPair
+variable "SideDataUserDir"
+value "T:\\eurodrone_wb_mdm\\alicia.bermejo\\03_fw\\03_design\\snrf031\\hds\\fsi_core_logic\\rtl.ibd.user"
+)
+(vvPair
+variable "SourceDir"
+value "T:\\eurodrone_wb_mdm\\alicia.bermejo\\03_fw\\03_design\\snrf031\\hds"
+)
+(vvPair
+variable "appl"
+value "HDL Author"
+)
+(vvPair
+variable "arch_name"
+value "rtl"
+)
+(vvPair
+variable "config"
+value "%(unit)_%(view)_config"
+)
+(vvPair
+variable "d"
+value "T:\\eurodrone_wb_mdm\\alicia.bermejo\\03_fw\\03_design\\snrf031\\hds\\fsi_core_logic"
+)
+(vvPair
+variable "d_logical"
+value "T:\\eurodrone_wb_mdm\\alicia.bermejo\\03_fw\\03_design\\snrf031\\hds\\fsi_core_logic"
+)
+(vvPair
+variable "date"
+value "17/11/2025"
+)
+(vvPair
+variable "day"
+value "lu."
+)
+(vvPair
+variable "day_long"
+value "lunes"
+)
+(vvPair
+variable "dd"
+value "17"
+)
+(vvPair
+variable "entity_name"
+value "fsi_core_logic"
+)
+(vvPair
+variable "ext"
+value "<TBD>"
+)
+(vvPair
+variable "f"
+value "rtl.ibd"
+)
+(vvPair
+variable "f_logical"
+value "rtl.ibd"
+)
+(vvPair
+variable "f_noext"
+value "rtl"
+)
+(vvPair
+variable "graphical_source_author"
+value "alicia.bermejo"
+)
+(vvPair
+variable "graphical_source_date"
+value "17/11/2025"
+)
+(vvPair
+variable "graphical_source_group"
+value "UNKNOWN"
+)
+(vvPair
+variable "graphical_source_host"
+value "CPU-JFPQBY3"
+)
+(vvPair
+variable "graphical_source_time"
+value "16:37:30"
+)
+(vvPair
+variable "group"
+value "UNKNOWN"
+)
+(vvPair
+variable "host"
+value "CPU-JFPQBY3"
+)
+(vvPair
+variable "language"
+value "VHDL"
+)
+(vvPair
+variable "library"
+value "snrf031"
+)
+(vvPair
+variable "library_downstream_HdsLintPlugin"
+value "$PROJECT_ROOT/03_design/snrf031/designcheck"
+)
+(vvPair
+variable "library_downstream_ModelSimCompiler"
+value "$PROJECT_ROOT/work/modelsim/snrf031"
+)
+(vvPair
+variable "library_downstream_QuestaSimCompiler"
+value "$PROJECT_ROOT/work/questasim/snrf031"
+)
+(vvPair
+variable "library_downstream_Synplify"
+value "$PROJECT_ROOT/work/synplify/snrf031"
+)
+(vvPair
+variable "mm"
+value "11"
+)
+(vvPair
+variable "module_name"
+value "fsi_core_logic"
+)
+(vvPair
+variable "month"
+value "nov."
+)
+(vvPair
+variable "month_long"
+value "noviembre"
+)
+(vvPair
+variable "p"
+value "T:\\eurodrone_wb_mdm\\alicia.bermejo\\03_fw\\03_design\\snrf031\\hds\\fsi_core_logic\\rtl.ibd"
+)
+(vvPair
+variable "p_logical"
+value "T:\\eurodrone_wb_mdm\\alicia.bermejo\\03_fw\\03_design\\snrf031\\hds\\fsi_core_logic\\rtl.ibd"
+)
+(vvPair
+variable "package_name"
+value "<Undefined Variable>"
+)
+(vvPair
+variable "project_name"
+value "system"
+)
+(vvPair
+variable "series"
+value "HDL Designer Series"
+)
+(vvPair
+variable "task_DesignCompilerPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_LeonardoPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_ModelSimPath"
+value "$HOME_MODELSIM"
+)
+(vvPair
+variable "task_NC-SimPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_PrecisionRTLPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_QuestaSimPath"
+value "$HOME_QUESTASIM"
+)
+(vvPair
+variable "task_VCSPath"
+value "<TBD>"
+)
+(vvPair
+variable "this_ext"
+value "ibd"
+)
+(vvPair
+variable "this_file"
+value "rtl"
+)
+(vvPair
+variable "this_file_logical"
+value "rtl"
+)
+(vvPair
+variable "time"
+value "16:37:30"
+)
+(vvPair
+variable "unit"
+value "fsi_core_logic"
+)
+(vvPair
+variable "user"
+value "alicia.bermejo"
+)
+(vvPair
+variable "version"
+value "2017.1a (Build 5)"
+)
+(vvPair
+variable "view"
+value "rtl"
+)
+(vvPair
+variable "year"
+value "2025"
+)
+(vvPair
+variable "yy"
+value "25"
+)
+]
+)
+LanguageMgr "Vhdl93LangMgr"
+uid 1,0
+optionalChildren [
+*1 (Property
+uid 340,0
+pclass "HDS"
+pname "SynchronizedView"
+pvalue "rtl.bd"
+ptn "String"
+)
+]
+bg "65535,65535,65535"
+grid (Grid
+origin "0,0"
+isVisible 1
+isActive 1
+xSpacing 1000
+xySpacing 1000
+xShown 1
+yShown 1
+color "65535,0,0"
+)
+packageList *2 (PackageList
+uid 2,0
+stg "VerticalLayoutStrategy"
+textVec [
+*3 (Text
+uid 3,0
+va (VaSet
+font "Times New Roman,8,1"
+)
+xt "0,0,5100,1100"
+st "Package List"
+blo "0,900"
+)
+*4 (MLText
+uid 4,0
+va (VaSet
+)
+xt "0,1100,12700,9500"
+st "library ieee;
+use ieee.std_logic_1164.all;
+
+library fsi_adt_rl;
+library fsi_adt_fl;
+library fsi_gdt_rl;
+library fsi_gdt_fl;"
+tm "PackageList"
+)
+]
+)
+compDirBlock (MlTextGroup
+uid 5,0
+stg "VerticalLayoutStrategy"
+textVec [
+*5 (Text
+uid 6,0
+va (VaSet
+font "Times New Roman,8,1"
+)
+xt "20000,0,27800,1100"
+st "Compiler Directives"
+blo "20000,900"
+)
+*6 (Text
+uid 7,0
+va (VaSet
+font "Times New Roman,8,1"
+)
+xt "20000,1100,29100,2200"
+st "Pre-module directives:"
+blo "20000,2000"
+)
+*7 (MLText
+uid 8,0
+va (VaSet
+)
+xt "20000,2200,29000,4600"
+st "`resetall
+`timescale 1ns/10ps"
+tm "BdCompilerDirectivesTextMgr"
+)
+*8 (Text
+uid 9,0
+va (VaSet
+font "Times New Roman,8,1"
+)
+xt "20000,4600,29300,5700"
+st "Post-module directives:"
+blo "20000,5500"
+)
+*9 (MLText
+uid 10,0
+va (VaSet
+)
+xt "20000,0,20000,0"
+tm "BdCompilerDirectivesTextMgr"
+)
+*10 (Text
+uid 11,0
+va (VaSet
+font "Times New Roman,8,1"
+)
+xt "20000,5700,29100,6800"
+st "End-module directives:"
+blo "20000,6600"
+)
+*11 (MLText
+uid 12,0
+va (VaSet
+)
+xt "20000,6800,20000,6800"
+tm "BdCompilerDirectivesTextMgr"
+)
+]
+associable 1
+)
+windowSize "0,0,1016,690"
+viewArea "0,0,0,0"
+cachedDiagramExtent "0,0,0,0"
+pageBreakOrigin "0,0"
+logical (IbdLogical
+uid 13,0
+colContainer (IbdColContainer
+uid 14,0
+optionalChildren [
+*12 (IbdInterface
+uid 15,0
+name "fsi_core_logic"
+on 8
+fa [
+(IbdNFA
+io "I"
+c *13 (IbdNet
+d (Decl
+n "fl_pmec_sync_in"
+t "std_logic"
+o 6
+)
+uid 51,0
+optionalChildren [
+*14 (IbdWire
+uid 325,0
+on 16
+nodes [
+*15 (IbdEB
+uid 323,0
+optionalChildren [
+*16 (IbdEmbeddedText
+theText "-- -----------------------------------------------------------------------------
+-- p_mux_tx: Select the transmitter between ADT RL and GDT FL
+-- -----------------------------------------------------------------------------
+-- adt_gdt = YX -> Y Select the receiver, X select the transmitter
+-- -----------------------------------------------------------------------------
+-- Return Link: adt_gdt(0) = 0
+-- Forward Link: adt_gdt(0) = 1
+-- -----------------------------------------------------------------------------
+m_tx_tdata <= m_tx_rl_tdata when(adt_gdt(0) = '0') else
+   m_tx_fl_tdata;
+
+m_tx_tvalid <= m_tx_rl_tvalid when(adt_gdt(0) = '0') else
+   m_tx_fl_tvalid;
+
+m_tx_rl_tready <= m_tx_tready when(adt_gdt(0) = '0') else
+   '0';
+m_tx_fl_tready <= m_tx_tready when(adt_gdt(0) = '1') else
+   '0';
+
+encryp_enable <= encryp_rl_enable when(adt_gdt(0) = '0') else
+   encryp_fl_enable;
+
+encryp_bypass <= encryp_rl_bypass when(adt_gdt(0) = '0') else
+   encryp_fl_bypass;
+-- -----------------------------------------------------------------------------
+enable_fsi_tx <= (encryp_rl_enable or encryp_rl_bypass) when(adt_gdt(0) = '0') else
+   (encryp_fl_enable or encryp_fl_bypass);
+-- -----------------------------------------------------------------------------"
+uid 92062,0
+)
+]
+name "p_mux_tx"
+on 26
+fa [
+(IbdNFA
+io "O"
+c &14
+)
+(IbdNFA
+io "O"
+c *17 (IbdWire
+uid 327,0
+on 22
+nodes [
+&15
+]
+net *18 (IbdNet
+d (Decl
+n "pn_code_gen_trck_st_in"
+t "std_logic_vector"
+b "(1 downto 0)"
+o 9
+)
+uid 57,0
+optionalChildren [
+&17
+]
+on 21
+nodes [
+&12
+*19 (IbdHdsComponent
+archFileType "UNKNOWN"
+p [
+*20 (IbdCptPort
+uid 546,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "clk"
+t "std_logic"
+o 1
+suid 87,0
+)
+)
+)
+*21 (IbdCptPort
+uid 547,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "fl_pmec_sync"
+t "std_logic"
+o 2
+suid 112,0
+)
+)
+)
+*22 (IbdCptPort
+uid 548,0
+p (LogicalPort
+lang 11
+decl (Decl
+n "m_tready"
+t "std_logic"
+o 3
+suid 139,0
+)
+)
+)
+*23 (IbdCptPort
+uid 549,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "pn_code_gen_trck_st"
+t "std_logic_vector"
+b "(1 downto 0)"
+o 4
+suid 111,0
+)
+)
+)
+*24 (IbdCptPort
+uid 550,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "rl_ch_clear"
+t "std_logic"
+o 5
+suid 144,0
+)
+)
+)
+*25 (IbdCptPort
+uid 551,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "rl_ch_rd"
+t "std_logic"
+o 6
+suid 150,0
+)
+)
+)
+*26 (IbdCptPort
+uid 552,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "rl_ch_wdata"
+t "std_logic_vector"
+b "(8 DOWNTO 0)"
+o 7
+suid 146,0
+)
+)
+)
+*27 (IbdCptPort
+uid 553,0
+p (LogicalPort
+lang 11
+decl (Decl
+n "rl_ch_wr"
+t "std_logic"
+o 8
+suid 145,0
+)
+)
+)
+*28 (IbdCptPort
+uid 554,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "rl_nav_start"
+t "std_logic"
+o 9
+suid 152,0
+)
+)
+)
+*29 (IbdCptPort
+uid 555,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "rl_nav_stop"
+t "std_logic"
+o 10
+suid 153,0
+)
+)
+)
+*30 (IbdCptPort
+uid 556,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "rl_nav_wdata"
+t "std_logic_vector"
+b "(15 DOWNTO 0)"
+o 11
+suid 149,0
+)
+)
+)
+*31 (IbdCptPort
+uid 557,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "rl_nav_wr"
+t "std_logic"
+o 12
+suid 148,0
+)
+)
+)
+*32 (IbdCptPort
+uid 558,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "rl_profile_cfg"
+t "std_logic_vector"
+b "(5 DOWNTO 0)"
+o 13
+suid 154,0
+)
+)
+)
+*33 (IbdCptPort
+uid 559,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "rst_n"
+t "std_logic"
+o 14
+suid 88,0
+)
+)
+)
+*34 (IbdCptPort
+uid 560,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "s_tdata"
+t "std_logic_vector"
+b "(7 DOWNTO 0)"
+eolc "--! Word read from memory"
+o 15
+suid 156,0
+)
+)
+)
+*35 (IbdCptPort
+uid 561,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "s_tlast"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 16
+suid 158,0
+)
+)
+)
+*36 (IbdCptPort
+uid 562,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "s_tvalid"
+t "std_logic"
+eolc "--! AXI-S master interface, valid"
+o 17
+suid 157,0
+)
+)
+)
+*37 (IbdCptPort
+uid 563,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "trigger_range"
+t "STD_LOGIC"
+o 18
+suid 110,0
+)
+)
+)
+*38 (IbdCptPort
+uid 15515,0
+p (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "enable"
+t "std_logic"
+o 19
+suid 167,0
+)
+)
+)
+*39 (IbdCptPort
+uid 564,0
+p (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "encryp_bypass"
+t "std_logic"
+o 20
+suid 165,0
+)
+)
+)
+*40 (IbdCptPort
+uid 565,0
+p (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "encryp_enable"
+t "std_logic"
+o 21
+suid 166,0
+)
+)
+)
+*41 (IbdCptPort
+uid 567,0
+p (LogicalPort
+lang 11
+m 1
+decl (Decl
+n "m_tdata"
+t "std_logic_vector"
+b "(31 DOWNTO 0)"
+o 22
+suid 137,0
+)
+)
+)
+*42 (IbdCptPort
+uid 568,0
+p (LogicalPort
+lang 11
+m 1
+decl (Decl
+n "m_tvalid"
+t "std_logic"
+o 23
+suid 138,0
+)
+)
+)
+*43 (IbdCptPort
+uid 569,0
+p (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "rl_ch_rdata"
+t "std_logic_vector"
+b "(7 DOWNTO 0)"
+o 24
+suid 151,0
+)
+)
+)
+*44 (IbdCptPort
+uid 570,0
+p (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "s_tready"
+t "std_logic"
+o 25
+suid 159,0
+)
+)
+)
+*45 (IbdCptPort
+uid 571,0
+p (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "sel_eth"
+t "std_logic"
+o 26
+suid 160,0
+)
+)
+)
+]
+inst "i_rl_tx"
+lib "fsi_adt_rl"
+ele [
+]
+uid 304,0
+name "fsi_adt_rl"
+on 18
+fa [
+(IbdCFA
+l "fl_pmec_sync"
+p &21
+c &13
+)
+(IbdCFA
+l "rst_n"
+p &33
+c *46 (IbdNet
+d (Decl
+n "rst_n"
+t "std_logic"
+o 10
+)
+uid 59,0
+on 23
+nodes [
+&12
+*47 (IbdHdsComponent
+archFileType "UNKNOWN"
+p [
+*48 (IbdCptPort
+uid 593,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "clk"
+t "std_logic"
+o 1
+suid 37,0
+)
+)
+)
+*49 (IbdCptPort
+uid 594,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "fl_ch_clear"
+t "std_logic"
+o 2
+suid 121,0
+)
+)
+)
+*50 (IbdCptPort
+uid 595,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "fl_ch_rd"
+t "std_logic"
+o 3
+suid 123,0
+)
+)
+)
+*51 (IbdCptPort
+uid 596,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "fl_ch_sel"
+t "std_logic_vector"
+b "(3 DOWNTO 0)"
+o 4
+suid 120,0
+)
+)
+)
+*52 (IbdCptPort
+uid 597,0
+p (LogicalPort
+lang 11
+decl (Decl
+n "fl_ch_wdata"
+t "std_logic_vector"
+b "(8 downto 0)"
+o 5
+suid 125,0
+)
+)
+)
+*53 (IbdCptPort
+uid 598,0
+p (LogicalPort
+lang 11
+decl (Decl
+n "fl_ch_wr"
+t "std_logic"
+o 6
+suid 122,0
+)
+)
+)
+*54 (IbdCptPort
+uid 599,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "fl_pmec_sync"
+t "std_logic"
+o 7
+suid 118,0
+)
+)
+)
+*55 (IbdCptPort
+uid 600,0
+p (LogicalPort
+lang 11
+decl (Decl
+n "fl_profile_cfg"
+t "std_logic_vector"
+b "(5 DOWNTO 0)"
+o 8
+suid 99,0
+)
+)
+)
+*56 (IbdCptPort
+uid 601,0
+p (LogicalPort
+lang 11
+decl (Decl
+n "m_tready"
+t "std_logic"
+o 9
+suid 116,0
+)
+)
+)
+*57 (IbdCptPort
+uid 602,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "rst_n"
+t "std_logic"
+o 10
+suid 38,0
+)
+)
+)
+*58 (IbdCptPort
+uid 603,0
+p (LogicalPort
+decl (Decl
+n "s_tdata"
+t "std_logic_vector"
+b "(7 DOWNTO 0)"
+eolc "--! Word read from memory"
+o 11
+suid 129,0
+)
+)
+)
+*59 (IbdCptPort
+uid 604,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "s_tlast"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 12
+suid 131,0
+)
+)
+)
+*60 (IbdCptPort
+uid 605,0
+p (LogicalPort
+lang 11
+decl (Decl
+n "s_tvalid"
+t "std_logic"
+eolc "--! AXI-S master interface, valid"
+o 13
+suid 130,0
+)
+)
+)
+*61 (IbdCptPort
+uid 14915,0
+p (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "enable"
+t "std_logic"
+o 14
+suid 136,0
+)
+)
+)
+*62 (IbdCptPort
+uid 606,0
+p (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "encryp_bypass"
+t "std_logic"
+o 15
+suid 134,0
+)
+)
+)
+*63 (IbdCptPort
+uid 607,0
+p (LogicalPort
+lang 11
+m 1
+decl (Decl
+n "encryp_enable"
+t "std_logic"
+o 16
+suid 135,0
+)
+)
+)
+*64 (IbdCptPort
+uid 609,0
+p (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "fl_ch_rdata"
+t "std_logic_vector"
+b "(7 DOWNTO 0)"
+o 17
+suid 124,0
+)
+)
+)
+*65 (IbdCptPort
+uid 610,0
+p (LogicalPort
+lang 11
+m 1
+decl (Decl
+n "m_tdata"
+t "std_logic_vector"
+b "(31 DOWNTO 0)"
+o 18
+suid 114,0
+)
+)
+)
+*66 (IbdCptPort
+uid 611,0
+p (LogicalPort
+lang 11
+m 1
+decl (Decl
+n "m_tvalid"
+t "std_logic"
+o 19
+suid 115,0
+)
+)
+)
+*67 (IbdCptPort
+uid 612,0
+p (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "s_tready"
+t "std_logic"
+o 20
+suid 132,0
+)
+)
+)
+*68 (IbdCptPort
+uid 613,0
+p (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "sel_eth"
+t "std_logic"
+o 21
+suid 128,0
+)
+)
+)
+]
+inst "i_fl_tx"
+lib "fsi_gdt_fl"
+ele [
+]
+uid 308,0
+name "fsi_gdt_fl"
+on 21
+fa [
+(IbdCFA
+l "fl_pmec_sync"
+p &54
+c &13
+)
+(IbdCFA
+l "rst_n"
+p &57
+c &46
+)
+(IbdCFA
+l "clk"
+p &48
+c *69 (IbdNet
+d (Decl
+n "clk"
+t "std_logic"
+eolc "--! Clock signal"
+o 5
+)
+uid 49,0
+on 14
+nodes [
+&12
+&47
+&19
+*70 (IbdHdsComponent
+archFileType "UNKNOWN"
+p [
+*71 (IbdCptPort
+uid 503,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "clk"
+t "std_logic"
+o 1
+suid 61,0
+)
+)
+)
+*72 (IbdCptPort
+uid 504,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "fl_profile_cfg"
+t "std_logic_vector"
+b "(5 downto 0)"
+o 2
+suid 96,0
+)
+)
+)
+*73 (IbdCptPort
+uid 505,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "fl_status_clear"
+t "std_logic"
+o 3
+suid 94,0
+)
+)
+)
+*74 (IbdCptPort
+uid 506,0
+p (LogicalPort
+lang 11
+decl (Decl
+n "m_tready"
+t "std_logic"
+o 4
+suid 102,0
+)
+)
+)
+*75 (IbdCptPort
+uid 507,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "rst_n"
+t "std_logic"
+o 5
+suid 62,0
+)
+)
+)
+*76 (IbdCptPort
+uid 508,0
+p (LogicalPort
+lang 11
+decl (Decl
+n "s_tdata"
+t "std_logic_vector"
+b "(31 downto 0)"
+eolc "--! AXI-S Slave interface, data"
+o 6
+suid 89,0
+)
+)
+)
+*77 (IbdCptPort
+uid 509,0
+p (LogicalPort
+lang 11
+decl (Decl
+n "s_tvalid"
+t "std_logic"
+eolc "--! AXI-S Slave interface, valid"
+o 7
+suid 90,0
+)
+)
+)
+*78 (IbdCptPort
+uid 510,0
+p (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "decryp_bypass"
+t "std_logic"
+o 8
+suid 104,0
+)
+)
+)
+*79 (IbdCptPort
+uid 511,0
+p (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "decryp_enable"
+t "std_logic"
+o 9
+suid 106,0
+)
+)
+)
+*80 (IbdCptPort
+uid 67858,0
+p (LogicalPort
+lang 11
+m 1
+decl (Decl
+n "enable"
+t "std_logic"
+o 10
+suid 107,0
+)
+)
+)
+*81 (IbdCptPort
+uid 513,0
+p (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "fl_status"
+t "std_logic_vector"
+b "(31 DOWNTO 0)"
+o 11
+suid 95,0
+)
+)
+)
+*82 (IbdCptPort
+uid 514,0
+p (LogicalPort
+lang 11
+m 1
+decl (Decl
+n "m_tdata"
+t "std_logic_vector"
+b "(7 DOWNTO 0)"
+o 12
+suid 99,0
+)
+)
+)
+*83 (IbdCptPort
+uid 515,0
+p (LogicalPort
+lang 11
+m 1
+decl (Decl
+n "m_tlast"
+t "std_logic"
+o 13
+suid 101,0
+)
+)
+)
+*84 (IbdCptPort
+uid 516,0
+p (LogicalPort
+lang 11
+m 1
+decl (Decl
+n "m_tvalid"
+t "std_logic"
+o 14
+suid 100,0
+)
+)
+)
+*85 (IbdCptPort
+uid 517,0
+p (LogicalPort
+lang 11
+m 1
+decl (Decl
+n "s_tready"
+t "std_logic"
+eolc "--! AXI-S Slave interface, ready"
+o 15
+suid 91,0
+)
+)
+)
+*86 (IbdCptPort
+uid 518,0
+p (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "sel_eth"
+t "std_logic"
+o 16
+suid 97,0
+)
+)
+)
+*87 (IbdCptPort
+uid 519,0
+p (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "trigger_range"
+t "std_logic"
+o 17
+suid 32,0
+)
+)
+)
+]
+inst "i_fl_rx"
+lib "fsi_adt_fl"
+ele [
+]
+uid 300,0
+name "fsi_adt_fl"
+on 15
+fa [
+(IbdCFA
+l "m_tvalid"
+p &84
+c *88 (IbdNet
+d (Decl
+n "m_rx_fl_tvalid"
+t "std_logic"
+eolc "--! AXI-S master interface, valid"
+o 69
+)
+uid 169,0
+on 82
+nodes [
+*89 (IbdEB
+uid 335,0
+optionalChildren [
+*90 (IbdEmbeddedText
+theText "-- -----------------------------------------------------------------------------
+-- p_eth_rx: Select the receptor between GDT RL and ADT FL 
+-- -----------------------------------------------------------------------------
+-- adt_gdt = YX -> Y Select the receiver, X select the transmitter
+-- -----------------------------------------------------------------------------
+-- Return Link: adt_gdt(1) = 0
+-- Forward Link: adt_gdt(1) = 1
+-- -----------------------------------------------------------------------------
+m_rx_tdata <= m_rx_rl_tdata when(adt_gdt(1) = '0' and m_rx_rl_tvalid = '1' and m_rx_rl_tready = '1') else
+   m_rx_fl_tdata when(adt_gdt(1) = '1' and m_rx_fl_tvalid = '1' and m_rx_fl_tready = '1') else
+   (others => '0');
+
+m_rx_tlast <= m_rx_rl_tlast when(adt_gdt(1) = '0') else
+   m_rx_fl_tlast;
+
+m_rx_tvalid <= m_rx_rl_tvalid when(adt_gdt(1) = '0') else
+   m_rx_fl_tvalid;
+
+m_rx_rl_tready <= m_rx_tready when(adt_gdt(1) = '0') else
+   '0';
+m_rx_fl_tready <= m_rx_tready when(adt_gdt(1) = '1') else
+   '0';
+
+eth_rx_enable <= eth_rx_rl_enable when(adt_gdt(1) = '0') else
+   eth_rx_fl_enable;
+
+eth_rx_sel <= eth_rx_rl_sel when(adt_gdt(4) = '0' and adt_gdt(1) = '0') else
+   eth_rx_fl_sel when(adt_gdt(4) = '0' and adt_gdt(1) = '1') else
+   adt_gdt(3) when(adt_gdt(4) = '1') else
+   '0';
+-- -----------------------------------------------------------------------------"
+uid 92064,0
+)
+]
+name "p_eth_rx"
+on 28
+fa [
+(IbdNFA
+io "I"
+c *91 (IbdWire
+slice "(1)"
+uid 66818,0
+on 52
+nodes [
+*92 (IbdEB
+uid 316,0
+optionalChildren [
+*93 (IbdEmbeddedText
+theText "-- -----------------------------------------------------------------------------
+-- p_mux_rx: Select the receptor between GDT RL and ADT FL 
+-- -----------------------------------------------------------------------------
+-- adt_gdt = YX -> Y Select the receiver, X select the transmitter
+-- -----------------------------------------------------------------------------
+-- Return Link: adt_gdt(1) = 0
+-- Forward Link: adt_gdt(1) = 1
+-- -----------------------------------------------------------------------------
+s_rx_rl_tdata <= s_rx_tdata;
+s_rx_fl_tdata <= s_rx_tdata;
+
+s_rx_rl_tvalid <= s_rx_tvalid when(adt_gdt(1) = '0') else
+   '0';
+s_rx_fl_tvalid <= s_rx_tvalid when(adt_gdt(1) = '1') else
+   '0';
+
+s_rx_tready <= s_rx_rl_tready when(adt_gdt(1) = '0') else
+   s_rx_fl_tready;
+
+decryp_enable <= decryp_rl_enable when(adt_gdt(1) = '0') else
+   decryp_fl_enable;
+decryp_bypass <= decryp_rl_bypass when(adt_gdt(1) = '0') else
+   decryp_fl_bypass;
+-- -----------------------------------------------------------------------------
+enable_fsi_rx <= (decryp_rl_enable or decryp_rl_bypass) when(adt_gdt(1) = '0') else
+   (decryp_fl_enable or decryp_fl_bypass);
+-- -----------------------------------------------------------------------------
+fl_pmec_sync_out <= fl_pmec_sync_in when (adt_gdt(0) = '1' or adt_gdt(1) = '1') else fl_pmec_sync;
+-- -----------------------------------------------------------------------------"
+uid 92061,0
+)
+]
+name "p_mux_rx"
+on 25
+fa [
+(IbdNFA
+io "I"
+c &91
+)
+(IbdNFA
+io "O"
+c *94 (IbdWire
+slice "(0)"
+uid 67127,0
+on 53
+nodes [
+&92
+&15
+*95 (IbdEB
+uid 332,0
+optionalChildren [
+*96 (IbdEmbeddedText
+theText "-- -----------------------------------------------------------------------------
+-- p_eth_tx: Select the transmitter between ADT RL and GDT FL
+-- -----------------------------------------------------------------------------
+-- adt_gdt = YX -> Y Select the receiver, X select the transmitter
+-- -----------------------------------------------------------------------------
+-- Return Link: adt_gdt(0) = 0
+-- Forward Link: adt_gdt(0) = 1
+-- -----------------------------------------------------------------------------
+s_tx_fl_tdata <= s_tx_tdata;
+s_tx_rl_tdata <= s_tx_tdata;
+
+s_tx_fl_tlast <= s_tx_tlast;
+s_tx_rl_tlast <= s_tx_tlast;
+
+s_tx_fl_tvalid <= s_tx_tvalid when((adt_gdt(0) = '1')) else
+   '0';
+s_tx_rl_tvalid <= s_tx_tvalid when((adt_gdt(0) = '0')) else
+   '0';
+
+s_tx_tready <= s_tx_fl_tready when((adt_gdt(0) = '1')) else
+   s_tx_rl_tready when((adt_gdt(0) = '0')) else
+   '0';
+
+eth_tx_enable <= eth_tx_fl_enable when((adt_gdt(0) = '1')) else
+   eth_tx_rl_enable when((adt_gdt(0) = '0')) else
+   '0';
+
+eth_tx_sel <= eth_tx_fl_sel when(adt_gdt(4) = '0' and adt_gdt(0) = '1') else
+   eth_tx_rl_sel when(adt_gdt(4) = '0' and adt_gdt(0) = '0') else
+   adt_gdt(2) when(adt_gdt(4) = '1') else
+   '0';
+-- -----------------------------------------------------------------------------    "
+uid 92063,0
+)
+]
+name "p_eth_tx"
+on 27
+fa [
+(IbdNFA
+io "I"
+c &94
+)
+(IbdNFA
+io "O"
+c *97 (IbdNet
+d (Decl
+n "s_tx_rl_tvalid"
+t "std_logic"
+eolc "--! AXI-S master interface, valid"
+o 105
+)
+uid 243,0
+on 120
+nodes [
+&95
+&19
+]
+)
+)
+(IbdNFA
+io "O"
+c *98 (IbdNet
+d (Decl
+n "s_tx_fl_tvalid"
+t "std_logic"
+eolc "--! AXI-S master interface, valid"
+o 101
+)
+uid 235,0
+on 116
+nodes [
+&95
+&47
+]
+)
+)
+(IbdNFA
+io "I"
+c *99 (IbdNet
+d (Decl
+n "eth_tx_rl_sel"
+t "std_logic"
+o 63
+)
+uid 157,0
+on 76
+nodes [
+&95
+&19
+]
+)
+)
+(IbdNFA
+io "O"
+c *100 (IbdNet
+d (Decl
+n "s_tx_tready"
+t "std_logic"
+o 39
+)
+uid 109,0
+on 49
+nodes [
+&12
+&95
+]
+)
+)
+(IbdNFA
+io "O"
+c *101 (IbdNet
+d (Decl
+n "eth_tx_sel"
+t "std_logic"
+o 30
+)
+uid 93,0
+on 40
+nodes [
+&12
+&95
+]
+)
+)
+(IbdNFA
+io "O"
+c *102 (IbdNet
+d (Decl
+n "s_tx_rl_tlast"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 103
+)
+uid 239,0
+on 118
+nodes [
+&95
+&19
+]
+)
+)
+(IbdNFA
+io "O"
+c *103 (IbdNet
+d (Decl
+n "s_tx_fl_tdata"
+t "std_logic_vector"
+b "(7 DOWNTO 0)"
+eolc "--! Word read from memory"
+o 98
+)
+uid 229,0
+on 113
+nodes [
+&95
+&47
+]
+)
+)
+(IbdNFA
+io "I"
+c *104 (IbdNet
+d (Decl
+n "s_tx_tlast"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 14
+)
+uid 67,0
+on 27
+nodes [
+&12
+&95
+]
+)
+)
+(IbdNFA
+io "O"
+c *105 (IbdNet
+d (Decl
+n "eth_tx_enable"
+t "std_logic"
+o 29
+)
+uid 91,0
+on 39
+nodes [
+&12
+&95
+]
+)
+)
+(IbdNFA
+io "I"
+c *106 (IbdNet
+d (Decl
+n "eth_tx_rl_enable"
+t "std_logic"
+o 62
+)
+uid 155,0
+on 75
+nodes [
+&95
+&19
+]
+)
+)
+(IbdNFA
+io "I"
+c *107 (IbdNet
+d (Decl
+n "s_tx_rl_tready"
+t "std_logic"
+o 104
+)
+uid 241,0
+on 119
+nodes [
+&95
+&19
+]
+)
+)
+(IbdNFA
+io "I"
+c *108 (IbdNet
+d (Decl
+n "eth_tx_fl_enable"
+t "std_logic"
+o 60
+)
+uid 151,0
+on 73
+nodes [
+&95
+&47
+]
+)
+)
+(IbdNFA
+io "I"
+c *109 (IbdNet
+d (Decl
+n "eth_tx_fl_sel"
+t "std_logic"
+o 61
+)
+uid 153,0
+on 74
+nodes [
+&95
+&47
+]
+)
+)
+(IbdNFA
+io "O"
+c *110 (IbdNet
+d (Decl
+n "s_tx_rl_tdata"
+t "std_logic_vector"
+b "(7 downto 0)"
+eolc "--! Word read from memory"
+o 102
+)
+uid 237,0
+on 117
+nodes [
+&95
+&19
+]
+)
+)
+(IbdNFA
+io "I"
+c *111 (IbdNet
+d (Decl
+n "s_tx_fl_tready"
+t "std_logic"
+o 100
+)
+uid 233,0
+on 115
+nodes [
+&95
+&47
+]
+)
+)
+(IbdNFA
+io "I"
+c *112 (IbdNet
+d (Decl
+n "s_tx_tvalid"
+t "std_logic"
+eolc "--! AXI-S master interface, valid"
+o 15
+)
+uid 69,0
+on 28
+nodes [
+&12
+&95
+]
+)
+)
+(IbdNFA
+io "I"
+c *113 (IbdNet
+d (Decl
+n "s_tx_tdata"
+t "std_logic_vector"
+b "(7 DOWNTO 0)"
+eolc "--! Word read from memory"
+o 13
+)
+uid 65,0
+on 26
+nodes [
+&12
+&95
+]
+)
+)
+(IbdNFA
+io "O"
+c *114 (IbdNet
+d (Decl
+n "s_tx_fl_tlast"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 99
+)
+uid 231,0
+on 114
+nodes [
+&95
+&47
+]
+)
+)
+]
+dec [
+(IbdNFA
+io "*"
+dt 1
+c *115 (IbdNet
+d (Decl
+n "adt_gdt"
+t "std_logic_vector"
+b "(4 downto 0)"
+o 40
+)
+uid 111,0
+optionalChildren [
+*116 (IbdWire
+uid 320,0
+on 51
+net &115
+)
+&91
+&94
+]
+on 50
+nodes [
+*117 (IbdHdsComponent
+archFileType "UNKNOWN"
+p [
+*118 (IbdCptPort
+uid 457,0
+p (LogicalPort
+lang 11
+decl (Decl
+n "ProcAddr"
+t "std_logic_vector"
+b "(g_add_size-1 downto 0)"
+eolc "-- 63 adresse max."
+preAdd 0
+posAdd 0
+o 1
+suid 1162,0
+)
+)
+)
+*119 (IbdCptPort
+uid 458,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "ProcCs"
+t "std_logic"
+o 2
+suid 1165,0
+)
+)
+)
+*120 (IbdCptPort
+uid 459,0
+p (LogicalPort
+lang 11
+decl (Decl
+n "ProcDataIn"
+t "std_logic_vector"
+b "(31 DOWNTO 0)"
+o 3
+suid 1164,0
+)
+)
+)
+*121 (IbdCptPort
+uid 460,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "ProcRNW"
+t "std_logic"
+o 4
+suid 1166,0
+)
+)
+)
+*122 (IbdCptPort
+uid 461,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "ch_fl_rdata"
+t "std_logic_vector"
+b "(7 DOWNTO 0)"
+o 5
+suid 1188,0
+)
+)
+)
+*123 (IbdCptPort
+uid 462,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "ch_rl_rdata"
+t "std_logic_vector"
+b "(7 DOWNTO 0)"
+o 6
+suid 1187,0
+)
+)
+)
+*124 (IbdCptPort
+uid 463,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "clk"
+t "std_logic"
+o 7
+suid 1062,0
+)
+)
+)
+*125 (IbdCptPort
+uid 464,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "fl_status"
+t "std_logic_vector"
+b "(31 DOWNTO 0)"
+o 8
+suid 1148,0
+)
+)
+)
+*126 (IbdCptPort
+uid 465,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "nav_rdata"
+t "std_logic_vector"
+b "(15 DOWNTO 0)"
+o 9
+suid 1178,0
+)
+)
+)
+*127 (IbdCptPort
+uid 466,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "rl_status"
+t "std_logic_vector"
+b "(31 DOWNTO 0)"
+o 10
+suid 1182,0
+)
+)
+)
+*128 (IbdCptPort
+uid 467,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "rst_n"
+t "std_logic"
+o 11
+suid 1063,0
+)
+)
+)
+*129 (IbdCptPort
+uid 67206,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "sel_adt_gdt"
+t "std_logic"
+o 12
+suid 1191,0
+)
+)
+)
+*130 (IbdCptPort
+uid 468,0
+p (LogicalPort
+lang 11
+m 1
+decl (Decl
+n "ProcDataOut"
+t "std_logic_vector"
+b "(31 DOWNTO 0)"
+o 13
+suid 1181,0
+)
+)
+)
+*131 (IbdCptPort
+uid 469,0
+p (LogicalPort
+lang 11
+m 1
+decl (Decl
+n "ProcRdAck"
+t "std_logic"
+o 14
+suid 1180,0
+)
+)
+)
+*132 (IbdCptPort
+uid 470,0
+p (LogicalPort
+lang 11
+m 1
+decl (Decl
+n "ProcWrAck"
+t "std_logic"
+o 15
+suid 1163,0
+)
+)
+)
+*133 (IbdCptPort
+uid 471,0
+p (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "adt_gdt"
+t "std_logic_vector"
+b "(4 downto 0)"
+o 16
+suid 1167,0
+)
+)
+)
+*134 (IbdCptPort
+uid 472,0
+p (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "aes_newkey"
+t "std_logic"
+o 17
+suid 1161,0
+)
+)
+)
+*135 (IbdCptPort
+uid 473,0
+p (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "ch_clear"
+t "std_logic"
+o 18
+suid 1175,0
+)
+)
+)
+*136 (IbdCptPort
+uid 474,0
+p (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "ch_rd"
+t "std_logic"
+o 19
+suid 1176,0
+)
+)
+)
+*137 (IbdCptPort
+uid 475,0
+p (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "ch_sel"
+t "std_logic_vector"
+b "(3 DOWNTO 0)"
+o 20
+suid 1173,0
+)
+)
+)
+*138 (IbdCptPort
+uid 476,0
+p (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "ch_wdata"
+t "std_logic_vector"
+b "(8 DOWNTO 0)"
+o 21
+suid 1177,0
+)
+)
+)
+*139 (IbdCptPort
+uid 477,0
+p (LogicalPort
+lang 11
+m 1
+decl (Decl
+n "ch_wr"
+t "std_logic"
+o 22
+suid 1174,0
+)
+)
+)
+*140 (IbdCptPort
+uid 478,0
+p (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "fl_status_clear"
+t "std_logic"
+o 23
+suid 1149,0
+)
+)
+)
+*141 (IbdCptPort
+uid 479,0
+p (LogicalPort
+lang 11
+m 1
+decl (Decl
+n "nav_rd"
+t "std_logic"
+o 24
+suid 1171,0
+)
+)
+)
+*142 (IbdCptPort
+uid 480,0
+p (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "nav_start"
+t "std_logic"
+o 25
+suid 1168,0
+)
+)
+)
+*143 (IbdCptPort
+uid 481,0
+p (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "nav_stop"
+t "std_logic"
+o 26
+suid 1169,0
+)
+)
+)
+*144 (IbdCptPort
+uid 482,0
+p (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "nav_wdata"
+t "std_logic_vector"
+b "(15 DOWNTO 0)"
+o 27
+suid 1172,0
+)
+)
+)
+*145 (IbdCptPort
+uid 483,0
+p (LogicalPort
+lang 11
+m 1
+decl (Decl
+n "nav_wr"
+t "std_logic"
+o 28
+suid 1170,0
+)
+)
+)
+*146 (IbdCptPort
+uid 484,0
+p (LogicalPort
+lang 11
+m 1
+decl (Decl
+n "profile_cfg"
+t "std_logic_vector"
+b "(5 DOWNTO 0)"
+o 29
+suid 1158,0
+)
+)
+)
+*147 (IbdCptPort
+uid 485,0
+p (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "rl_status_clear"
+t "std_logic"
+o 30
+suid 1183,0
+)
+)
+)
+]
+inst "i_tmtc"
+lib "snrf031"
+ele [
+(GiElement
+name "g_add_size"
+type "integer"
+value "g_add_size"
+)
+]
+uid 296,0
+name "fsi_core_logic_tmtc"
+on 12
+fa [
+(IbdCFA
+l "rst_n"
+p &128
+c &46
+)
+(IbdCFA
+l "clk"
+p &124
+c &69
+)
+(IbdCFA
+l "fl_status_clear"
+p &140
+c *148 (IbdNet
+d (Decl
+n "fl_status_clear"
+t "std_logic"
+o 65
+)
+uid 161,0
+on 78
+nodes [
+&70
+&117
+]
+)
+)
+(IbdCFA
+l "adt_gdt"
+p &133
+c &115
+)
+(IbdCFA
+l "fl_status"
+p &125
+c *149 (IbdNet
+d (Decl
+n "fl_status"
+t "std_logic_vector"
+b "(31 DOWNTO 0)"
+o 64
+)
+uid 159,0
+on 77
+nodes [
+&70
+&117
+]
+)
+)
+(IbdCFA
+l "ch_wdata"
+p &138
+c *150 (IbdNet
+d (Decl
+n "ch_wdata"
+t "std_logic_vector"
+b "(8 DOWNTO 0)"
+o 46
+)
+uid 123,0
+on 59
+nodes [
+&47
+&19
+&117
+]
+)
+)
+(IbdCFA
+l "ProcCs"
+p &119
+c *151 (IbdNet
+d (Decl
+n "ProcCs"
+t "std_logic"
+o 2
+)
+uid 43,0
+on 11
+nodes [
+&12
+&117
+]
+)
+)
+(IbdCFA
+l "rl_status"
+p &127
+c *152 (IbdNet
+d (Decl
+n "rl_status"
+t "std_logic_vector"
+b "(31 DOWNTO 0)"
+o 88
+)
+uid 209,0
+on 103
+nodes [
+*153 (IbdHdsComponent
+archFileType "UNKNOWN"
+p [
+*154 (IbdCptPort
+uid 636,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "clk"
+t "std_logic"
+o 1
+suid 45,0
+)
+)
+)
+*155 (IbdCptPort
+uid 637,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "m_tready"
+t "std_logic"
+o 2
+suid 100,0
+)
+)
+)
+*156 (IbdCptPort
+uid 638,0
+p (LogicalPort
+lang 11
+decl (Decl
+n "rl_nav_rd"
+t "std_logic"
+o 3
+suid 91,0
+)
+)
+)
+*157 (IbdCptPort
+uid 639,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "rl_nav_start"
+t "std_logic"
+o 4
+suid 92,0
+)
+)
+)
+*158 (IbdCptPort
+uid 640,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "rl_nav_stop"
+t "std_logic"
+o 5
+suid 93,0
+)
+)
+)
+*159 (IbdCptPort
+uid 641,0
+p (LogicalPort
+lang 11
+decl (Decl
+n "rl_profile_cfg"
+t "std_logic_vector"
+b "(5 DOWNTO 0)"
+o 6
+suid 69,0
+)
+)
+)
+*160 (IbdCptPort
+uid 642,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "rl_status_clear"
+t "std_logic"
+o 7
+suid 71,0
+)
+)
+)
+*161 (IbdCptPort
+uid 643,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "rst_n"
+t "std_logic"
+o 8
+suid 46,0
+)
+)
+)
+*162 (IbdCptPort
+uid 644,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "s_tdata"
+t "std_logic_vector"
+b "(31 downto 0)"
+eolc "--! AXI-S Slave interface, data"
+o 9
+suid 81,0
+)
+)
+)
+*163 (IbdCptPort
+uid 645,0
+p (LogicalPort
+lang 2
+decl (Decl
+n "s_tvalid"
+t "std_logic"
+eolc "--! AXI-S Slave interface, valid"
+o 10
+suid 82,0
+)
+)
+)
+*164 (IbdCptPort
+uid 646,0
+p (LogicalPort
+lang 11
+m 1
+decl (Decl
+n "decryp_bypass"
+t "std_logic"
+o 11
+suid 102,0
+)
+)
+)
+*165 (IbdCptPort
+uid 647,0
+p (LogicalPort
+lang 11
+m 1
+decl (Decl
+n "decryp_enable"
+t "std_logic"
+o 12
+suid 103,0
+)
+)
+)
+*166 (IbdCptPort
+uid 67928,0
+p (LogicalPort
+lang 11
+m 1
+decl (Decl
+n "enable"
+t "std_logic"
+o 13
+suid 104,0
+)
+)
+)
+*167 (IbdCptPort
+uid 649,0
+p (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "fl_pmec_sync"
+t "std_logic"
+o 14
+suid 47,0
+)
+)
+)
+*168 (IbdCptPort
+uid 650,0
+p (LogicalPort
+lang 11
+m 1
+decl (Decl
+n "m_tdata"
+t "std_logic_vector"
+b "(7 DOWNTO 0)"
+o 15
+suid 97,0
+)
+)
+)
+*169 (IbdCptPort
+uid 651,0
+p (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "m_tlast"
+t "std_logic"
+o 16
+suid 98,0
+)
+)
+)
+*170 (IbdCptPort
+uid 652,0
+p (LogicalPort
+lang 11
+m 1
+decl (Decl
+n "m_tvalid"
+t "std_logic"
+o 17
+suid 99,0
+)
+)
+)
+*171 (IbdCptPort
+uid 653,0
+p (LogicalPort
+lang 11
+m 1
+decl (Decl
+n "rl_nav_data"
+t "std_logic_vector"
+b "(15 downto 0)"
+o 18
+suid 87,0
+)
+)
+)
+*172 (IbdCptPort
+uid 654,0
+p (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "rl_nav_eop"
+t "std_logic"
+o 19
+suid 94,0
+)
+)
+)
+*173 (IbdCptPort
+uid 655,0
+p (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "rl_status"
+t "std_logic_vector"
+b "(31 DOWNTO 0)"
+o 20
+suid 72,0
+)
+)
+)
+*174 (IbdCptPort
+uid 656,0
+p (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "s_tready"
+t "std_logic"
+eolc "--! AXI-S Slave interface, ready"
+o 21
+suid 83,0
+)
+)
+)
+*175 (IbdCptPort
+uid 657,0
+p (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "sel_eth"
+t "std_logic"
+o 22
+suid 95,0
+)
+)
+)
+]
+inst "i_rl_rx"
+lib "fsi_gdt_rl"
+ele [
+]
+uid 312,0
+name "fsi_gdt_rl"
+on 24
+fa [
+(IbdCFA
+l "rst_n"
+p &161
+c &46
+)
+(IbdCFA
+l "clk"
+p &154
+c &69
+)
+(IbdCFA
+l "sel_eth"
+p &175
+c *176 (IbdNet
+d (Decl
+n "eth_rx_rl_sel"
+t "std_logic"
+o 59
+)
+uid 149,0
+on 72
+nodes [
+&89
+&153
+]
+)
+)
+(IbdCFA
+l "m_tready"
+p &155
+c *177 (IbdNet
+d (Decl
+n "m_rx_rl_tready"
+t "std_logic"
+o 72
+i "'0'"
+)
+uid 175,0
+on 86
+nodes [
+&89
+&153
+]
+)
+)
+(IbdCFA
+l "m_tlast"
+p &169
+c *178 (IbdNet
+d (Decl
+n "m_rx_rl_tlast"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 71
+)
+uid 173,0
+optionalChildren [
+*179 (IbdWire
+uid 82313,0
+on 85
+net &178
+)
+]
+on 84
+nodes [
+&89
+&153
+]
+)
+)
+(IbdCFA
+l "m_tvalid"
+p &170
+c *180 (IbdNet
+d (Decl
+n "m_rx_rl_tvalid"
+t "std_logic"
+eolc "--! AXI-S master interface, valid"
+o 73
+)
+uid 177,0
+on 87
+nodes [
+&89
+&153
+]
+)
+)
+(IbdCFA
+l "m_tdata"
+p &168
+c *181 (IbdNet
+d (Decl
+n "m_rx_rl_tdata"
+t "std_logic_vector"
+b "(7 downto 0)"
+eolc "--! Word read from memory"
+o 70
+)
+uid 171,0
+on 83
+nodes [
+&89
+&153
+]
+)
+)
+(IbdCFA
+l "enable"
+p &166
+c *182 (IbdNet
+d (Decl
+n "eth_rx_rl_enable"
+t "std_logic"
+o 58
+)
+uid 147,0
+on 71
+nodes [
+&89
+&153
+]
+)
+)
+(IbdCFA
+l "decryp_enable"
+p &165
+c *183 (IbdNet
+d (Decl
+n "decryp_rl_enable"
+t "std_logic"
+o 51
+)
+uid 133,0
+on 64
+nodes [
+&92
+&153
+]
+)
+)
+(IbdCFA
+l "s_tready"
+p &174
+c *184 (IbdNet
+d (Decl
+n "s_rx_rl_tready"
+t "std_logic"
+eolc "--! AXI-S Slave interface, ready"
+o 96
+)
+uid 225,0
+on 111
+nodes [
+&92
+&153
+]
+)
+)
+(IbdCFA
+l "s_tvalid"
+p &163
+c *185 (IbdNet
+d (Decl
+n "s_rx_rl_tvalid"
+t "std_logic"
+eolc "--! AXI-S Slave interface, valid"
+o 97
+i "'0'"
+)
+uid 227,0
+on 112
+nodes [
+&92
+&153
+]
+)
+)
+(IbdCFA
+l "s_tdata"
+p &162
+c *186 (IbdNet
+d (Decl
+n "s_rx_rl_tdata"
+t "std_logic_vector"
+b "(31 downto 0)"
+eolc "--! AXI-S Slave interface, data"
+o 95
+i "(others => '0')"
+)
+uid 223,0
+on 110
+nodes [
+&92
+&153
+]
+)
+)
+(IbdCFA
+l "fl_pmec_sync"
+p &167
+c *187 (IbdNet
+d (Decl
+n "fl_pmec_sync"
+t "std_logic"
+o 31
+)
+uid 87906,0
+on 125
+nodes [
+&92
+&153
+]
+)
+)
+(IbdCFA
+l "decryp_bypass"
+p &164
+c *188 (IbdNet
+d (Decl
+n "decryp_rl_bypass"
+t "std_logic"
+o 50
+)
+uid 131,0
+on 63
+nodes [
+&92
+&153
+]
+)
+)
+(IbdCFA
+l "rl_status"
+p &173
+c &152
+)
+(IbdCFA
+l "rl_nav_eop"
+p &172
+c *189 (IbdNet
+d (Decl
+n "nav_eop"
+t "std_logic"
+o 80
+)
+uid 191,0
+on 94
+nodes [
+&153
+]
+)
+)
+(IbdCFA
+l "rl_nav_start"
+p &157
+c *190 (IbdNet
+d (Decl
+n "nav_start"
+t "std_logic"
+o 83
+)
+uid 197,0
+on 97
+nodes [
+&19
+&153
+&117
+]
+)
+)
+(IbdCFA
+l "rl_nav_stop"
+p &158
+c *191 (IbdNet
+d (Decl
+n "nav_stop"
+t "std_logic"
+o 84
+)
+uid 199,0
+on 98
+nodes [
+&19
+&153
+&117
+]
+)
+)
+(IbdCFA
+l "rl_profile_cfg"
+p &159
+c *192 (IbdNet
+d (Decl
+n "profile_cfg"
+t "std_logic_vector"
+b "(5 DOWNTO 0)"
+o 37
+)
+uid 205,0
+on 101
+nodes [
+&12
+&47
+&19
+&70
+&153
+&117
+]
+)
+)
+(IbdCFA
+l "rl_status_clear"
+p &160
+c *193 (IbdNet
+d (Decl
+n "rl_status_clear"
+t "std_logic"
+o 90
+)
+uid 213,0
+on 105
+nodes [
+&153
+&117
+]
+)
+)
+(IbdCFA
+l "rl_nav_data"
+p &171
+c *194 (IbdNet
+d (Decl
+n "nav_rdata"
+t "std_logic_vector"
+b "(15 DOWNTO 0)"
+o 82
+)
+uid 195,0
+on 96
+nodes [
+&153
+&117
+]
+)
+)
+(IbdCFA
+l "rl_nav_rd"
+p &156
+c *195 (IbdNet
+d (Decl
+n "nav_rd"
+t "std_logic"
+o 81
+)
+uid 193,0
+on 95
+nodes [
+&153
+&117
+]
+)
+)
+]
+dec [
+]
+ucp [
+]
+)
+&117
+]
+)
+)
+(IbdCFA
+l "nav_start"
+p &142
+c &190
+)
+(IbdCFA
+l "nav_stop"
+p &143
+c &191
+)
+(IbdCFA
+l "nav_wdata"
+p &144
+c *196 (IbdNet
+d (Decl
+n "nav_wdata"
+t "std_logic_vector"
+b "(15 DOWNTO 0)"
+o 85
+)
+uid 201,0
+on 99
+nodes [
+&19
+&117
+]
+)
+)
+(IbdCFA
+l "nav_wr"
+p &145
+c *197 (IbdNet
+d (Decl
+n "nav_wr"
+t "std_logic"
+o 86
+)
+uid 203,0
+on 100
+nodes [
+&19
+&117
+]
+)
+)
+(IbdCFA
+l "ch_rl_rdata"
+p &123
+c *198 (IbdNet
+d (Decl
+n "ch_rl_rdata"
+t "std_logic_vector"
+b "(7 DOWNTO 0)"
+o 44
+)
+uid 119,0
+on 57
+nodes [
+&19
+&117
+]
+)
+)
+(IbdCFA
+l "profile_cfg"
+p &146
+c &192
+)
+(IbdCFA
+l "ch_rd"
+p &136
+c *199 (IbdNet
+d (Decl
+n "ch_rd"
+t "std_logic"
+o 43
+)
+uid 117,0
+on 56
+nodes [
+&47
+&19
+&117
+]
+)
+)
+(IbdCFA
+l "ch_wr"
+p &139
+c *200 (IbdNet
+d (Decl
+n "ch_wr"
+t "std_logic"
+o 47
+)
+uid 125,0
+on 60
+nodes [
+&47
+&19
+&117
+]
+)
+)
+(IbdCFA
+l "ch_sel"
+p &137
+c *201 (IbdNet
+d (Decl
+n "ch_sel"
+t "std_logic_vector"
+b "(3 DOWNTO 0)"
+o 45
+)
+uid 121,0
+on 58
+nodes [
+&47
+&117
+]
+)
+)
+(IbdCFA
+l "ch_fl_rdata"
+p &122
+c *202 (IbdNet
+d (Decl
+n "ch_fl_rdata"
+t "std_logic_vector"
+b "(7 DOWNTO 0)"
+o 42
+)
+uid 115,0
+on 55
+nodes [
+&47
+&117
+]
+)
+)
+(IbdCFA
+l "ch_clear"
+p &135
+c *203 (IbdNet
+d (Decl
+n "ch_clear"
+t "std_logic"
+o 41
+)
+uid 113,0
+on 54
+nodes [
+&47
+&19
+&117
+]
+)
+)
+(IbdCFA
+l "rl_status_clear"
+p &147
+c &193
+)
+(IbdCFA
+l "nav_rdata"
+p &126
+c &194
+)
+(IbdCFA
+l "nav_rd"
+p &141
+c &195
+)
+(IbdCFA
+l "ProcWrAck"
+p &132
+c *204 (IbdNet
+d (Decl
+n "ProcWrAck"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 19
+)
+uid 75,0
+on 31
+nodes [
+&12
+&117
+]
+)
+)
+(IbdCFA
+l "sel_adt_gdt"
+p &129
+c *205 (IbdNet
+d (Decl
+n "sel_adt_gdt"
+t "std_logic"
+o 16
+)
+uid 32350,0
+on 122
+nodes [
+&12
+&117
+]
+)
+)
+(IbdCFA
+l "ProcRNW"
+p &121
+c *206 (IbdNet
+d (Decl
+n "ProcRNW"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 4
+)
+uid 47,0
+on 13
+nodes [
+&12
+&117
+]
+)
+)
+(IbdCFA
+l "ProcDataIn"
+p &120
+c *207 (IbdNet
+d (Decl
+n "ProcDatain"
+t "std_logic_vector"
+b "(31 DOWNTO 0)"
+o 3
+)
+uid 45,0
+on 12
+nodes [
+&12
+&117
+]
+)
+)
+(IbdCFA
+l "ProcDataOut"
+p &130
+c *208 (IbdNet
+d (Decl
+n "ProcDataout"
+t "std_logic_vector"
+b "(31 DOWNTO 0)"
+o 17
+)
+uid 71,0
+on 29
+nodes [
+&12
+&117
+]
+)
+)
+(IbdCFA
+l "ProcRdAck"
+p &131
+c *209 (IbdNet
+d (Decl
+n "ProcRdAck"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 18
+)
+uid 73,0
+on 30
+nodes [
+&12
+&117
+]
+)
+)
+(IbdCFA
+l "ProcAddr"
+p &118
+c *210 (IbdNet
+d (Decl
+n "ProcAddr"
+t "std_logic_vector"
+b "(g_add_size-1 downto 0)"
+eolc "-- 63 adresse max."
+preAdd 0
+posAdd 0
+o 1
+)
+uid 41,0
+on 10
+nodes [
+&12
+&117
+]
+)
+)
+(IbdCFA
+l "aes_newkey"
+p &134
+c *211 (IbdNet
+d (Decl
+n "encryp_newkey"
+t "std_logic"
+o 26
+)
+uid 85,0
+on 36
+nodes [
+&12
+&117
+]
+)
+)
+]
+dec [
+]
+ucp [
+]
+)
+&92
+&92
+&15
+&95
+&89
+&89
+]
+)
+)
+]
+)
+&89
+]
+net &115
+)
+)
+(IbdNFA
+io "I"
+c &13
+)
+(IbdNFA
+io "O"
+c *212 (IbdNet
+d (Decl
+n "s_rx_fl_tvalid"
+t "std_logic"
+eolc "--! AXI-S Slave interface, valid"
+o 94
+i "'0'"
+)
+uid 221,0
+on 109
+nodes [
+&92
+&70
+]
+)
+)
+(IbdNFA
+io "I"
+c *213 (IbdNet
+d (Decl
+n "s_rx_fl_tready"
+t "std_logic"
+eolc "--! AXI-S Slave interface, ready"
+o 93
+)
+uid 219,0
+on 108
+nodes [
+&92
+&70
+]
+)
+)
+(IbdNFA
+io "I"
+c *214 (IbdNet
+d (Decl
+n "decryp_fl_bypass"
+t "std_logic"
+o 48
+)
+uid 127,0
+on 61
+nodes [
+&92
+&70
+]
+)
+)
+(IbdNFA
+io "I"
+c *215 (IbdNet
+d (Decl
+n "decryp_fl_enable"
+t "std_logic"
+o 49
+)
+uid 129,0
+on 62
+nodes [
+&92
+&70
+]
+)
+)
+(IbdNFA
+io "I"
+c &115
+)
+(IbdNFA
+io "O"
+c *216 (IbdNet
+d (Decl
+n "s_rx_fl_tdata"
+t "std_logic_vector"
+b "(31 downto 0)"
+eolc "--! AXI-S Slave interface, data"
+o 92
+i "(others => '0')"
+)
+uid 217,0
+on 107
+nodes [
+&92
+&70
+]
+)
+)
+(IbdNFA
+io "O"
+c *217 (IbdNet
+d (Decl
+n "decryp_bypass"
+t "std_logic"
+o 20
+)
+uid 77,0
+on 32
+nodes [
+&12
+&92
+]
+)
+)
+(IbdNFA
+io "I"
+c *218 (IbdNet
+d (Decl
+n "s_rx_tvalid"
+t "std_logic"
+eolc "--! AXI-S Slave interface, valid"
+o 12
+)
+uid 63,0
+on 25
+nodes [
+&12
+&92
+]
+)
+)
+(IbdNFA
+io "I"
+c &183
+)
+(IbdNFA
+io "O"
+c *219 (IbdNet
+d (Decl
+n "fl_pmec_sync_out"
+t "std_logic"
+o 31
+)
+uid 95,0
+optionalChildren [
+*220 (IbdWire
+uid 318,0
+on 42
+net &219
+)
+]
+on 41
+nodes [
+&12
+&92
+]
+)
+)
+(IbdNFA
+io "I"
+c &184
+)
+(IbdNFA
+io "O"
+c *221 (IbdNet
+d (Decl
+n "decryp_enable"
+t "std_logic"
+o 21
+)
+uid 79,0
+on 33
+nodes [
+&12
+&92
+]
+)
+)
+(IbdNFA
+io "O"
+c &185
+)
+(IbdNFA
+io "O"
+c &186
+)
+(IbdNFA
+io "O"
+c *222 (IbdNet
+d (Decl
+n "s_rx_tready"
+t "std_logic"
+eolc "--! AXI-S Slave interface, ready"
+o 38
+i "'0'"
+)
+uid 107,0
+on 48
+nodes [
+&12
+&92
+]
+)
+)
+(IbdNFA
+io "I"
+c *223 (IbdNet
+d (Decl
+n "s_rx_tdata"
+t "std_logic_vector"
+b "(31 downto 0)"
+eolc "--! AXI-S Slave interface, data"
+o 11
+)
+uid 61,0
+on 24
+nodes [
+&12
+&92
+]
+)
+)
+(IbdNFA
+io "O"
+c *224 (IbdNet
+d (Decl
+n "enable_fsi_rx"
+t "std_logic"
+o 22
+)
+uid 76926,0
+on 124
+nodes [
+&12
+&92
+]
+)
+)
+(IbdNFA
+io "I"
+c &187
+)
+(IbdNFA
+io "I"
+c &188
+)
+]
+dec [
+(IbdNFA
+io "*"
+dt 1
+c &115
+)
+(IbdNFA
+io "*"
+dt 1
+c &115
+)
+]
+)
+&89
+]
+net &115
+)
+)
+(IbdNFA
+io "O"
+c &94
+)
+(IbdNFA
+io "I"
+c &88
+)
+(IbdNFA
+io "I"
+c *225 (IbdNet
+d (Decl
+n "eth_rx_fl_enable"
+t "std_logic"
+o 56
+)
+uid 143,0
+on 69
+nodes [
+&89
+&70
+]
+)
+)
+(IbdNFA
+io "I"
+c *226 (IbdNet
+d (Decl
+n "eth_rx_fl_sel"
+t "std_logic"
+o 57
+)
+uid 145,0
+on 70
+nodes [
+&89
+&70
+]
+)
+)
+(IbdNFA
+io "I"
+c *227 (IbdNet
+d (Decl
+n "m_rx_fl_tready"
+t "std_logic"
+o 68
+)
+uid 167,0
+on 81
+nodes [
+&89
+&70
+]
+)
+)
+(IbdNFA
+io "I"
+c &115
+)
+(IbdNFA
+io "I"
+c *228 (IbdNet
+d (Decl
+n "m_rx_fl_tlast"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 67
+)
+uid 165,0
+on 80
+nodes [
+&89
+&70
+]
+)
+)
+(IbdNFA
+io "I"
+c *229 (IbdNet
+d (Decl
+n "m_rx_fl_tdata"
+t "std_logic_vector"
+b "(7 DOWNTO 0)"
+eolc "--! Word read from memory"
+o 66
+)
+uid 163,0
+on 79
+nodes [
+&89
+&70
+]
+)
+)
+(IbdNFA
+io "I"
+c &176
+)
+(IbdNFA
+io "I"
+c &177
+)
+(IbdNFA
+io "O"
+c *230 (IbdNet
+d (Decl
+n "m_rx_tlast"
+t "std_logic"
+o 33
+)
+uid 99,0
+on 44
+nodes [
+&12
+&89
+]
+)
+)
+(IbdNFA
+io "I"
+c &178
+)
+(IbdNFA
+io "O"
+c *231 (IbdNet
+d (Decl
+n "m_rx_tvalid"
+t "std_logic"
+o 34
+)
+uid 101,0
+on 45
+nodes [
+&12
+&89
+]
+)
+)
+(IbdNFA
+io "O"
+c *232 (IbdNet
+d (Decl
+n "eth_rx_enable"
+t "std_logic"
+o 27
+)
+uid 87,0
+on 37
+nodes [
+&12
+&89
+]
+)
+)
+(IbdNFA
+io "O"
+c *233 (IbdNet
+d (Decl
+n "eth_rx_sel"
+t "std_logic"
+o 28
+)
+uid 89,0
+on 38
+nodes [
+&12
+&89
+]
+)
+)
+(IbdNFA
+io "I"
+c &180
+)
+(IbdNFA
+io "I"
+c *234 (IbdNet
+d (Decl
+n "m_rx_tready"
+t "std_logic"
+o 7
+)
+uid 53,0
+on 19
+nodes [
+&12
+&89
+]
+)
+)
+(IbdNFA
+io "I"
+c &181
+)
+(IbdNFA
+io "O"
+c *235 (IbdNet
+d (Decl
+n "m_rx_tdata"
+t "std_logic_vector"
+b "(7 DOWNTO 0)"
+o 32
+)
+uid 97,0
+on 43
+nodes [
+&12
+&89
+]
+)
+)
+(IbdNFA
+io "I"
+c &182
+)
+]
+dec [
+(IbdNFA
+io "*"
+dt 1
+c &115
+)
+(IbdNFA
+io "*"
+dt 1
+c &115
+)
+]
+)
+&70
+]
+)
+)
+(IbdCFA
+l "rst_n"
+p &75
+c &46
+)
+(IbdCFA
+l "s_tvalid"
+p &77
+c &212
+)
+(IbdCFA
+l "clk"
+p &71
+c &69
+)
+(IbdCFA
+l "enable"
+p &80
+c &225
+)
+(IbdCFA
+l "s_tready"
+p &85
+c &213
+)
+(IbdCFA
+l "decryp_bypass"
+p &78
+c &214
+)
+(IbdCFA
+l "fl_status_clear"
+p &73
+c &148
+)
+(IbdCFA
+l "trigger_range"
+p &87
+c *236 (IbdNet
+d (Decl
+n "trigger_range"
+t "STD_LOGIC"
+o 106
+)
+uid 245,0
+on 121
+nodes [
+&19
+&70
+]
+)
+)
+(IbdCFA
+l "decryp_enable"
+p &79
+c &215
+)
+(IbdCFA
+l "sel_eth"
+p &86
+c &226
+)
+(IbdCFA
+l "m_tready"
+p &74
+c &227
+)
+(IbdCFA
+l "m_tlast"
+p &83
+c &228
+)
+(IbdCFA
+l "s_tdata"
+p &76
+c &216
+)
+(IbdCFA
+l "m_tdata"
+p &82
+c &229
+)
+(IbdCFA
+l "fl_status"
+p &81
+c &149
+)
+(IbdCFA
+l "fl_profile_cfg"
+p &72
+c &192
+)
+]
+dec [
+]
+ucp [
+]
+)
+&153
+&117
+]
+)
+)
+(IbdCFA
+l "s_tvalid"
+p &60
+c &98
+)
+(IbdCFA
+l "s_tdata"
+p &58
+c &103
+)
+(IbdCFA
+l "enable"
+p &61
+c &108
+)
+(IbdCFA
+l "sel_eth"
+p &68
+c &109
+)
+(IbdCFA
+l "s_tready"
+p &67
+c &111
+)
+(IbdCFA
+l "s_tlast"
+p &59
+c &114
+)
+(IbdCFA
+l "encryp_enable"
+p &63
+c *237 (IbdNet
+d (Decl
+n "encryp_fl_enable"
+t "std_logic"
+o 53
+)
+uid 137,0
+on 66
+nodes [
+&15
+&47
+]
+)
+)
+(IbdCFA
+l "m_tvalid"
+p &66
+c *238 (IbdNet
+d (Decl
+n "m_tx_fl_tvalid"
+t "std_logic"
+o 76
+)
+uid 183,0
+on 90
+nodes [
+&15
+&47
+]
+)
+)
+(IbdCFA
+l "m_tready"
+p &56
+c *239 (IbdNet
+d (Decl
+n "m_tx_fl_tready"
+t "std_logic"
+o 75
+)
+uid 181,0
+on 89
+nodes [
+&15
+&47
+]
+)
+)
+(IbdCFA
+l "m_tdata"
+p &65
+c *240 (IbdNet
+d (Decl
+n "m_tx_fl_tdata"
+t "std_logic_vector"
+b "(31 DOWNTO 0)"
+o 74
+)
+uid 179,0
+on 88
+nodes [
+&15
+&47
+]
+)
+)
+(IbdCFA
+l "encryp_bypass"
+p &62
+c *241 (IbdNet
+d (Decl
+n "encryp_fl_bypass"
+t "std_logic"
+o 52
+)
+uid 135,0
+on 65
+nodes [
+&15
+&47
+]
+)
+)
+(IbdCFA
+l "fl_ch_wdata"
+p &52
+c &150
+)
+(IbdCFA
+l "fl_profile_cfg"
+p &55
+c &192
+)
+(IbdCFA
+l "fl_ch_rd"
+p &50
+c &199
+)
+(IbdCFA
+l "fl_ch_wr"
+p &53
+c &200
+)
+(IbdCFA
+l "fl_ch_sel"
+p &51
+c &201
+)
+(IbdCFA
+l "fl_ch_rdata"
+p &64
+c &202
+)
+(IbdCFA
+l "fl_ch_clear"
+p &49
+c &203
+)
+]
+dec [
+]
+ucp [
+]
+)
+&19
+&70
+&153
+&117
+]
+)
+)
+(IbdCFA
+l "clk"
+p &20
+c &69
+)
+(IbdCFA
+l "trigger_range"
+p &37
+c &236
+)
+(IbdCFA
+l "s_tvalid"
+p &36
+c &97
+)
+(IbdCFA
+l "sel_eth"
+p &45
+c &99
+)
+(IbdCFA
+l "s_tlast"
+p &35
+c &102
+)
+(IbdCFA
+l "enable"
+p &38
+c &106
+)
+(IbdCFA
+l "s_tready"
+p &44
+c &107
+)
+(IbdCFA
+l "s_tdata"
+p &34
+c &110
+)
+(IbdCFA
+l "m_tdata"
+p &41
+c *242 (IbdNet
+d (Decl
+n "m_tx_rl_tdata"
+t "std_logic_vector"
+b "(31 DOWNTO 0)"
+o 77
+)
+uid 185,0
+on 91
+nodes [
+&15
+&19
+]
+)
+)
+(IbdCFA
+l "pn_code_gen_trck_st"
+p &23
+c &18
+)
+(IbdCFA
+l "encryp_bypass"
+p &39
+c *243 (IbdNet
+d (Decl
+n "encryp_rl_bypass"
+t "std_logic"
+o 54
+)
+uid 139,0
+on 67
+nodes [
+&15
+&19
+]
+)
+)
+(IbdCFA
+l "encryp_enable"
+p &40
+c *244 (IbdNet
+d (Decl
+n "encryp_rl_enable"
+t "std_logic"
+o 55
+)
+uid 141,0
+on 68
+nodes [
+&15
+&19
+]
+)
+)
+(IbdCFA
+l "m_tvalid"
+p &42
+c *245 (IbdNet
+d (Decl
+n "m_tx_rl_tvalid"
+t "std_logic"
+o 79
+)
+uid 189,0
+on 93
+nodes [
+&15
+&19
+]
+)
+)
+(IbdCFA
+l "m_tready"
+p &22
+c *246 (IbdNet
+d (Decl
+n "m_tx_rl_tready"
+t "std_logic"
+o 78
+i "'0'"
+)
+uid 187,0
+on 92
+nodes [
+&15
+&19
+]
+)
+)
+(IbdCFA
+l "rl_ch_wdata"
+p &26
+c &150
+)
+(IbdCFA
+l "rl_nav_start"
+p &28
+c &190
+)
+(IbdCFA
+l "rl_nav_stop"
+p &29
+c &191
+)
+(IbdCFA
+l "rl_nav_wdata"
+p &30
+c &196
+)
+(IbdCFA
+l "rl_nav_wr"
+p &31
+c &197
+)
+(IbdCFA
+l "rl_ch_rdata"
+p &43
+c &198
+)
+(IbdCFA
+l "rl_profile_cfg"
+p &32
+c &192
+)
+(IbdCFA
+l "rl_ch_rd"
+p &25
+c &199
+)
+(IbdCFA
+l "rl_ch_wr"
+p &27
+c &200
+)
+(IbdCFA
+l "rl_ch_clear"
+p &24
+c &203
+)
+]
+dec [
+]
+ucp [
+]
+)
+&15
+]
+)
+)
+)
+(IbdNFA
+io "O"
+c *247 (IbdWire
+uid 329,0
+on 17
+nodes [
+&15
+]
+net &13
+)
+)
+(IbdNFA
+io "I"
+c &94
+)
+(IbdNFA
+io "O"
+c *248 (IbdWire
+uid 87322,0
+on 18
+nodes [
+&15
+]
+net &13
+)
+)
+(IbdNFA
+io "I"
+c &13
+)
+(IbdNFA
+io "I"
+c &237
+)
+(IbdNFA
+io "I"
+c &238
+)
+(IbdNFA
+io "O"
+c &239
+)
+(IbdNFA
+io "I"
+c &240
+)
+(IbdNFA
+io "I"
+c &241
+)
+(IbdNFA
+io "I"
+c &242
+)
+(IbdNFA
+io "I"
+c &18
+)
+(IbdNFA
+io "I"
+c *249 (IbdNet
+d (Decl
+n "m_tx_tready"
+t "std_logic"
+o 8
+)
+uid 55,0
+on 20
+nodes [
+&12
+&15
+]
+)
+)
+(IbdNFA
+io "O"
+c *250 (IbdNet
+d (Decl
+n "encryp_enable"
+t "std_logic"
+o 25
+)
+uid 83,0
+on 35
+nodes [
+&12
+&15
+]
+)
+)
+(IbdNFA
+io "O"
+c *251 (IbdNet
+d (Decl
+n "m_tx_tdata"
+t "std_logic_vector"
+b "(31 DOWNTO 0)"
+o 35
+)
+uid 103,0
+on 46
+nodes [
+&12
+&15
+]
+)
+)
+(IbdNFA
+io "O"
+c *252 (IbdNet
+d (Decl
+n "encryp_bypass"
+t "std_logic"
+o 24
+)
+uid 81,0
+on 34
+nodes [
+&12
+&15
+]
+)
+)
+(IbdNFA
+io "O"
+c *253 (IbdNet
+d (Decl
+n "enable_fsi_tx"
+t "std_logic"
+o 23
+)
+uid 75969,0
+on 123
+nodes [
+&12
+&15
+]
+)
+)
+(IbdNFA
+io "I"
+c &243
+)
+(IbdNFA
+io "I"
+c &244
+)
+(IbdNFA
+io "O"
+c *254 (IbdNet
+d (Decl
+n "m_tx_tvalid"
+t "std_logic"
+o 36
+)
+uid 105,0
+on 47
+nodes [
+&12
+&15
+]
+)
+)
+(IbdNFA
+io "I"
+c &245
+)
+(IbdNFA
+io "O"
+c &246
+)
+]
+dec [
+(IbdNFA
+io "*"
+dt 1
+c &13
+)
+(IbdNFA
+io "*"
+dt 1
+c &18
+)
+(IbdNFA
+io "*"
+dt 1
+c &13
+)
+(IbdNFA
+io "*"
+dt 1
+c &115
+)
+(IbdNFA
+io "*"
+dt 1
+c &13
+)
+]
+)
+]
+net &13
+)
+&247
+&248
+]
+on 15
+nodes [
+&12
+&92
+&47
+&19
+&15
+&15
+&15
+]
+)
+)
+(IbdNFA
+io "I"
+c &46
+)
+(IbdNFA
+io "I"
+c &69
+)
+(IbdNFA
+io "O"
+c &100
+)
+(IbdNFA
+io "O"
+c &101
+)
+(IbdNFA
+io "I"
+c &104
+)
+(IbdNFA
+io "O"
+c &105
+)
+(IbdNFA
+io "I"
+c &112
+)
+(IbdNFA
+io "I"
+c &113
+)
+(IbdNFA
+io "O"
+c &230
+)
+(IbdNFA
+io "O"
+c &231
+)
+(IbdNFA
+io "O"
+c &232
+)
+(IbdNFA
+io "O"
+c &233
+)
+(IbdNFA
+io "I"
+c &234
+)
+(IbdNFA
+io "O"
+c &235
+)
+(IbdNFA
+io "O"
+c &217
+)
+(IbdNFA
+io "I"
+c &218
+)
+(IbdNFA
+io "O"
+c &219
+)
+(IbdNFA
+io "O"
+c &221
+)
+(IbdNFA
+io "O"
+c &222
+)
+(IbdNFA
+io "I"
+c &223
+)
+(IbdNFA
+io "O"
+c &224
+)
+(IbdNFA
+io "I"
+c &18
+)
+(IbdNFA
+io "I"
+c &249
+)
+(IbdNFA
+io "O"
+c &250
+)
+(IbdNFA
+io "O"
+c &251
+)
+(IbdNFA
+io "O"
+c &252
+)
+(IbdNFA
+io "O"
+c &253
+)
+(IbdNFA
+io "O"
+c &254
+)
+(IbdNFA
+io "I"
+c &151
+)
+(IbdNFA
+io "O"
+c &192
+)
+(IbdNFA
+io "O"
+c &204
+)
+(IbdNFA
+io "I"
+c &205
+)
+(IbdNFA
+io "I"
+c &206
+)
+(IbdNFA
+io "I"
+c &207
+)
+(IbdNFA
+io "O"
+c &208
+)
+(IbdNFA
+io "O"
+c &209
+)
+(IbdNFA
+io "I"
+c &210
+)
+(IbdNFA
+io "O"
+c &211
+)
+]
+dec [
+]
+)
+&117
+&70
+&19
+&47
+&153
+&92
+&15
+&95
+&89
+]
+)
+rowContainer (IbdRowContainer
+uid 16,0
+optionalChildren [
+&210
+&151
+&207
+&206
+&69
+&13
+&234
+&249
+&18
+&46
+&223
+&218
+&113
+&104
+&112
+&208
+&209
+&204
+&217
+&221
+&252
+&250
+&211
+&232
+&233
+&105
+&101
+&219
+&235
+&230
+&231
+&251
+&254
+&222
+&100
+&115
+&203
+&202
+&199
+&198
+&201
+&150
+&200
+&214
+&215
+&188
+&183
+&241
+&237
+&243
+&244
+&225
+&226
+&182
+&176
+&108
+&109
+&106
+&99
+&149
+&148
+&229
+&228
+&227
+&88
+&181
+&178
+&177
+&180
+&240
+&239
+&238
+&242
+&246
+&245
+&189
+&195
+&194
+&190
+&191
+&196
+&197
+&192
+*255 (IbdNet
+d (Decl
+n "rl_ch_wr"
+t "std_logic"
+o 87
+)
+uid 207,0
+on 102
+)
+&152
+*256 (IbdNet
+d (Decl
+n "rl_status1"
+t "std_logic_vector"
+b "(31 DOWNTO 0)"
+o 89
+)
+uid 211,0
+on 104
+)
+&193
+*257 (IbdNet
+d (Decl
+n "rl_status_clear1"
+t "std_logic"
+o 91
+)
+uid 215,0
+on 106
+)
+&216
+&213
+&212
+&186
+&184
+&185
+&103
+&114
+&111
+&98
+&110
+&102
+&107
+&97
+&236
+&205
+&253
+&224
+&187
+*258 (IbdBundle
+n "tmtc"
+uid 92013,0
+optionalChildren [
+*259 (IbdWire
+uid 92015,0
+on 127
+net &149
+)
+*260 (IbdWire
+uid 92017,0
+on 128
+net &148
+)
+*261 (IbdWire
+uid 92019,0
+on 129
+net &203
+)
+*262 (IbdWire
+uid 92021,0
+on 130
+net &199
+)
+*263 (IbdWire
+uid 92023,0
+on 131
+net &202
+)
+*264 (IbdWire
+uid 92025,0
+on 132
+net &150
+)
+*265 (IbdWire
+uid 92027,0
+on 133
+net &255
+)
+*266 (IbdWire
+uid 92029,0
+on 134
+net &200
+)
+*267 (IbdWire
+uid 92031,0
+on 135
+net &192
+)
+*268 (IbdWire
+uid 92033,0
+on 136
+net &236
+)
+*269 (IbdWire
+uid 92035,0
+on 137
+net &201
+)
+*270 (IbdWire
+uid 92037,0
+on 138
+net &195
+)
+*271 (IbdWire
+uid 92039,0
+on 139
+net &194
+)
+*272 (IbdWire
+uid 92041,0
+on 140
+net &152
+)
+*273 (IbdWire
+uid 92043,0
+on 141
+net &193
+)
+*274 (IbdWire
+uid 92045,0
+on 142
+net &198
+)
+*275 (IbdWire
+uid 92047,0
+on 143
+net &196
+)
+*276 (IbdWire
+uid 92049,0
+on 144
+net &197
+)
+*277 (IbdWire
+uid 92051,0
+on 145
+net &191
+)
+*278 (IbdWire
+uid 92053,0
+on 146
+net &190
+)
+*279 (IbdWire
+uid 92055,0
+on 147
+net &189
+)
+*280 (IbdWire
+uid 92057,0
+on 148
+net &256
+)
+*281 (IbdWire
+uid 92059,0
+on 149
+net &257
+)
+]
+on 126
+)
+]
+)
+)
+physical (MPhysicalIbd
+activeIct &0
+mainIct (MIct
+name "All"
+mcolContainer (MIctColContainer
+optionalChildren [
+*282 (MRefCol
+p 0
+uid 20,0
+d 20
+)
+*283 (MNameCol
+p 2
+uid 21,0
+d 116
+)
+*284 (MTypeCol
+p 4
+uid 22,0
+d 86
+)
+*285 (MBoundsCol
+p 5
+uid 23,0
+d 121
+)
+*286 (MFilterCol
+p 6
+hidden 1
+uid 24,0
+d 120
+)
+*287 (MFixedCol
+p 7
+hidden 1
+uid 25,0
+d 20
+)
+*288 (MInterfaceCol
+p 8
+uid 26,0
+d 35
+ibdInterface &12
+)
+*289 (MValueCol
+p 29
+uid 27,0
+d 81
+)
+*290 (MEolCol
+p 30
+uid 28,0
+d 171
+)
+*291 (MSliceCol
+p 3
+uid 40,0
+)
+*292 (MExpandCol
+p 1
+uid 295,0
+d 15
+depth 1
+)
+*293 (MGroupCol
+p 9
+uid 338,0
+optionalChildren [
+*294 (MHdsCompInstCol
+p 10
+uid 297,0
+optionalChildren [
+*295 (MCompPortCol
+p 11
+hidden 1
+uid 298,0
+d 92
+)
+*296 (MCompActualCol
+p 12
+hidden 1
+uid 299,0
+d 35
+)
+]
+d 35
+comp &117
+)
+*297 (MHdsCompInstCol
+p 13
+uid 301,0
+optionalChildren [
+*298 (MCompPortCol
+p 14
+hidden 1
+uid 302,0
+d 81
+)
+*299 (MCompActualCol
+p 15
+hidden 1
+uid 303,0
+d 35
+)
+]
+d 35
+comp &70
+)
+*300 (MHdsCompInstCol
+p 16
+uid 305,0
+optionalChildren [
+*301 (MCompPortCol
+p 17
+hidden 1
+uid 306,0
+d 102
+)
+*302 (MCompActualCol
+p 18
+hidden 1
+uid 307,0
+d 35
+)
+]
+d 35
+comp &19
+)
+*303 (MHdsCompInstCol
+p 19
+uid 309,0
+optionalChildren [
+*304 (MCompPortCol
+p 20
+hidden 1
+uid 310,0
+d 76
+)
+*305 (MCompActualCol
+p 21
+hidden 1
+uid 311,0
+d 35
+)
+]
+d 35
+comp &47
+)
+*306 (MHdsCompInstCol
+p 22
+uid 313,0
+optionalChildren [
+*307 (MCompPortCol
+p 23
+hidden 1
+uid 314,0
+d 81
+)
+*308 (MCompActualCol
+p 24
+hidden 1
+uid 315,0
+d 35
+)
+]
+d 35
+comp &153
+)
+*309 (MEBCol
+p 25
+uid 322,0
+d 35
+eb &92
+)
+*310 (MEBCol
+p 26
+uid 331,0
+d 35
+eb &15
+)
+*311 (MEBCol
+p 27
+uid 334,0
+d 35
+eb &95
+)
+*312 (MEBCol
+p 28
+uid 337,0
+d 35
+eb &89
+)
+]
+d 15
+horizText "fst_adt"
+groupColRow *313 (MGroupColRow
+p 1
+uid 339,0
+depth 1
+)
+e 1
+)
+]
+)
+mrowContainer (MIctRowContainer
+optionalChildren [
+*314 (MRefRow
+p 0
+uid 30,0
+)
+*315 (MNameRow
+p 2
+uid 31,0
+d 101
+)
+*316 (MLibRow
+p 3
+uid 32,0
+)
+*317 (MInstanceRefRow
+p 4
+uid 33,0
+)
+*318 (MPortMapLabelRow
+p 5
+uid 34,0
+)
+*319 (MFilterRow
+p 6
+hidden 1
+uid 35,0
+d 20
+)
+*320 (MFixedRow
+p 7
+hidden 1
+uid 36,0
+)
+*321 (MReqRow
+p 8
+hidden 1
+uid 37,0
+)
+*322 (MUcPortGroupRow
+p 9
+uid 38,0
+)
+*323 (MEmptyRow
+p 150
+uid 39,0
+)
+*324 (MNetRow
+p 10
+uid 42,0
+net &210
+)
+*325 (MNetRow
+p 11
+uid 44,0
+net &151
+)
+*326 (MNetRow
+p 12
+uid 46,0
+net &207
+)
+*327 (MNetRow
+p 13
+uid 48,0
+net &206
+)
+*328 (MNetRow
+p 14
+uid 50,0
+net &69
+)
+*329 (MNetRow
+p 15
+uid 52,0
+optionalChildren [
+*330 (MWireRow
+p 16
+uid 326,0
+wire &14
+)
+*331 (MWireRow
+p 17
+uid 330,0
+wire &247
+)
+*332 (MWireRow
+p 18
+uid 87323,0
+wire &248
+)
+]
+expandCol &292
+net &13
+)
+*333 (MNetRow
+p 19
+uid 54,0
+net &234
+)
+*334 (MNetRow
+p 20
+uid 56,0
+net &249
+)
+*335 (MNetRow
+p 21
+uid 58,0
+optionalChildren [
+*336 (MWireRow
+p 22
+uid 328,0
+wire &17
+)
+]
+expandCol &292
+net &18
+)
+*337 (MNetRow
+p 23
+uid 60,0
+net &46
+)
+*338 (MNetRow
+p 24
+uid 62,0
+net &223
+)
+*339 (MNetRow
+p 25
+uid 64,0
+net &218
+)
+*340 (MNetRow
+p 26
+uid 66,0
+net &113
+)
+*341 (MNetRow
+p 27
+uid 68,0
+net &104
+)
+*342 (MNetRow
+p 28
+uid 70,0
+net &112
+)
+*343 (MNetRow
+p 29
+uid 72,0
+net &208
+)
+*344 (MNetRow
+p 30
+uid 74,0
+net &209
+)
+*345 (MNetRow
+p 31
+uid 76,0
+net &204
+)
+*346 (MNetRow
+p 32
+uid 78,0
+net &217
+)
+*347 (MNetRow
+p 33
+uid 80,0
+net &221
+)
+*348 (MNetRow
+p 34
+uid 82,0
+net &252
+)
+*349 (MNetRow
+p 35
+uid 84,0
+net &250
+)
+*350 (MNetRow
+p 36
+uid 86,0
+net &211
+)
+*351 (MNetRow
+p 37
+uid 88,0
+net &232
+)
+*352 (MNetRow
+p 38
+uid 90,0
+net &233
+)
+*353 (MNetRow
+p 39
+uid 92,0
+net &105
+)
+*354 (MNetRow
+p 40
+uid 94,0
+net &101
+)
+*355 (MNetRow
+p 41
+uid 96,0
+optionalChildren [
+*356 (MWireRow
+p 42
+uid 319,0
+wire &220
+)
+]
+expandCol &292
+net &219
+)
+*357 (MNetRow
+p 43
+uid 98,0
+net &235
+)
+*358 (MNetRow
+p 44
+uid 100,0
+net &230
+)
+*359 (MNetRow
+p 45
+uid 102,0
+net &231
+)
+*360 (MNetRow
+p 46
+uid 104,0
+net &251
+)
+*361 (MNetRow
+p 47
+uid 106,0
+net &254
+)
+*362 (MNetRow
+p 48
+uid 108,0
+net &222
+)
+*363 (MNetRow
+p 49
+uid 110,0
+net &100
+)
+*364 (MNetRow
+p 50
+uid 112,0
+optionalChildren [
+*365 (MWireRow
+p 51
+uid 321,0
+wire &116
+)
+*366 (MWireRow
+p 52
+uid 66819,0
+wire &91
+)
+*367 (MWireRow
+p 53
+uid 67128,0
+wire &94
+)
+]
+expandCol &292
+net &115
+)
+*368 (MNetRow
+p 54
+uid 114,0
+net &203
+)
+*369 (MNetRow
+p 55
+uid 116,0
+net &202
+)
+*370 (MNetRow
+p 56
+uid 118,0
+net &199
+)
+*371 (MNetRow
+p 57
+uid 120,0
+net &198
+)
+*372 (MNetRow
+p 58
+uid 122,0
+net &201
+)
+*373 (MNetRow
+p 59
+uid 124,0
+net &150
+)
+*374 (MNetRow
+p 60
+uid 126,0
+net &200
+)
+*375 (MNetRow
+p 61
+uid 128,0
+net &214
+)
+*376 (MNetRow
+p 62
+uid 130,0
+net &215
+)
+*377 (MNetRow
+p 63
+uid 132,0
+net &188
+)
+*378 (MNetRow
+p 64
+uid 134,0
+net &183
+)
+*379 (MNetRow
+p 65
+uid 136,0
+net &241
+)
+*380 (MNetRow
+p 66
+uid 138,0
+net &237
+)
+*381 (MNetRow
+p 67
+uid 140,0
+net &243
+)
+*382 (MNetRow
+p 68
+uid 142,0
+net &244
+)
+*383 (MNetRow
+p 69
+uid 144,0
+net &225
+)
+*384 (MNetRow
+p 70
+uid 146,0
+net &226
+)
+*385 (MNetRow
+p 71
+uid 148,0
+net &182
+)
+*386 (MNetRow
+p 72
+uid 150,0
+net &176
+)
+*387 (MNetRow
+p 73
+uid 152,0
+net &108
+)
+*388 (MNetRow
+p 74
+uid 154,0
+net &109
+)
+*389 (MNetRow
+p 75
+uid 156,0
+net &106
+)
+*390 (MNetRow
+p 76
+uid 158,0
+net &99
+)
+*391 (MNetRow
+p 77
+uid 160,0
+net &149
+)
+*392 (MNetRow
+p 78
+uid 162,0
+net &148
+)
+*393 (MNetRow
+p 79
+uid 164,0
+net &229
+)
+*394 (MNetRow
+p 80
+uid 166,0
+net &228
+)
+*395 (MNetRow
+p 81
+uid 168,0
+net &227
+)
+*396 (MNetRow
+p 82
+uid 170,0
+net &88
+)
+*397 (MNetRow
+p 83
+uid 172,0
+net &181
+)
+*398 (MNetRow
+p 84
+uid 174,0
+optionalChildren [
+*399 (MWireRow
+p 85
+uid 82314,0
+wire &179
+)
+]
+expandCol &292
+net &178
+)
+*400 (MNetRow
+p 86
+uid 176,0
+net &177
+)
+*401 (MNetRow
+p 87
+uid 178,0
+net &180
+)
+*402 (MNetRow
+p 88
+uid 180,0
+net &240
+)
+*403 (MNetRow
+p 89
+uid 182,0
+net &239
+)
+*404 (MNetRow
+p 90
+uid 184,0
+net &238
+)
+*405 (MNetRow
+p 91
+uid 186,0
+net &242
+)
+*406 (MNetRow
+p 92
+uid 188,0
+net &246
+)
+*407 (MNetRow
+p 93
+uid 190,0
+net &245
+)
+*408 (MNetRow
+p 94
+uid 192,0
+net &189
+)
+*409 (MNetRow
+p 95
+uid 194,0
+net &195
+)
+*410 (MNetRow
+p 96
+uid 196,0
+net &194
+)
+*411 (MNetRow
+p 97
+uid 198,0
+net &190
+)
+*412 (MNetRow
+p 98
+uid 200,0
+net &191
+)
+*413 (MNetRow
+p 99
+uid 202,0
+net &196
+)
+*414 (MNetRow
+p 100
+uid 204,0
+net &197
+)
+*415 (MNetRow
+p 101
+uid 206,0
+net &192
+)
+*416 (MNetRow
+p 102
+uid 208,0
+net &255
+)
+*417 (MNetRow
+p 103
+uid 210,0
+net &152
+)
+*418 (MNetRow
+p 104
+uid 212,0
+net &256
+)
+*419 (MNetRow
+p 105
+uid 214,0
+net &193
+)
+*420 (MNetRow
+p 106
+uid 216,0
+net &257
+)
+*421 (MNetRow
+p 107
+uid 218,0
+net &216
+)
+*422 (MNetRow
+p 108
+uid 220,0
+net &213
+)
+*423 (MNetRow
+p 109
+uid 222,0
+net &212
+)
+*424 (MNetRow
+p 110
+uid 224,0
+net &186
+)
+*425 (MNetRow
+p 111
+uid 226,0
+net &184
+)
+*426 (MNetRow
+p 112
+uid 228,0
+net &185
+)
+*427 (MNetRow
+p 113
+uid 230,0
+net &103
+)
+*428 (MNetRow
+p 114
+uid 232,0
+net &114
+)
+*429 (MNetRow
+p 115
+uid 234,0
+net &111
+)
+*430 (MNetRow
+p 116
+uid 236,0
+net &98
+)
+*431 (MNetRow
+p 117
+uid 238,0
+net &110
+)
+*432 (MNetRow
+p 118
+uid 240,0
+net &102
+)
+*433 (MNetRow
+p 119
+uid 242,0
+net &107
+)
+*434 (MNetRow
+p 120
+uid 244,0
+net &97
+)
+*435 (MNetRow
+p 121
+uid 246,0
+net &236
+)
+&313
+*436 (MNetRow
+p 122
+uid 32351,0
+net &205
+)
+*437 (MNetRow
+p 123
+uid 75970,0
+net &253
+)
+*438 (MNetRow
+p 124
+uid 76927,0
+net &224
+)
+*439 (MNetRow
+p 125
+uid 87907,0
+net &187
+)
+*440 (MBundleRow
+p 126
+uid 92014,0
+optionalChildren [
+*441 (MWireRow
+p 127
+uid 92016,0
+wire &259
+)
+*442 (MWireRow
+p 128
+uid 92018,0
+wire &260
+)
+*443 (MWireRow
+p 129
+uid 92020,0
+wire &261
+)
+*444 (MWireRow
+p 130
+uid 92022,0
+wire &262
+)
+*445 (MWireRow
+p 131
+uid 92024,0
+wire &263
+)
+*446 (MWireRow
+p 132
+uid 92026,0
+wire &264
+)
+*447 (MWireRow
+p 133
+uid 92028,0
+wire &265
+)
+*448 (MWireRow
+p 134
+uid 92030,0
+wire &266
+)
+*449 (MWireRow
+p 135
+uid 92032,0
+wire &267
+)
+*450 (MWireRow
+p 136
+uid 92034,0
+wire &268
+)
+*451 (MWireRow
+p 137
+uid 92036,0
+wire &269
+)
+*452 (MWireRow
+p 138
+uid 92038,0
+wire &270
+)
+*453 (MWireRow
+p 139
+uid 92040,0
+wire &271
+)
+*454 (MWireRow
+p 140
+uid 92042,0
+wire &272
+)
+*455 (MWireRow
+p 141
+uid 92044,0
+wire &273
+)
+*456 (MWireRow
+p 142
+uid 92046,0
+wire &274
+)
+*457 (MWireRow
+p 143
+uid 92048,0
+wire &275
+)
+*458 (MWireRow
+p 144
+uid 92050,0
+wire &276
+)
+*459 (MWireRow
+p 145
+uid 92052,0
+wire &277
+)
+*460 (MWireRow
+p 146
+uid 92054,0
+wire &278
+)
+*461 (MWireRow
+p 147
+uid 92056,0
+wire &279
+)
+*462 (MWireRow
+p 148
+uid 92058,0
+wire &280
+)
+*463 (MWireRow
+p 149
+uid 92060,0
+wire &281
+)
+]
+d 16
+expandCol &292
+bundle &258
+)
+]
+)
+vaOverrides [
+]
+)
+blkMVa (MVa
+cellColor "39936,56832,65280"
+fontColor "0,0,0"
+font "Tahoma,10,1"
+)
+hdsCompMva (MVa
+cellColor "45055,65535,30000"
+fontColor "0,0,0"
+font "Tahoma,10,1"
+)
+mwCompMva (MVa
+cellColor "0,65535,65535"
+fontColor "0,0,0"
+font "Tahoma,10,1"
+)
+ipCompMva (MVa
+cellColor "45055,65535,30000"
+fontColor "0,0,0"
+font "Tahoma,10,1"
+)
+embeddedBlkMva (MVa
+cellColor "65535,65535,37120"
+fontColor "0,0,0"
+font "Tahoma,10,1"
+)
+expressionRowMva (MVa
+alignment 0
+cellColor "65280,65280,46080"
+fontColor "0,0,0"
+font "Tahoma,10,1"
+)
+netSliceMva (MVa
+alignment 0
+cellColor "39936,56832,65280"
+fontColor "0,0,0"
+font "Tahoma,10,1"
+)
+bundleMva (MVa
+alignment 0
+cellColor "65280,65280,46080"
+fontColor "0,0,0"
+font "Tahoma,10,1"
+)
+propColMva (MVa
+cellColor "0,49152,49152"
+fontColor "0,0,0"
+font "Tahoma,10,1"
+)
+groupColMva (MVa
+alignment 0
+cellColor "62965,57054,46003"
+fontColor "0,0,0"
+font "Tahoma,10,1"
+)
+interfaceColMva (MVa
+cellColor "59904,39936,65280"
+fontColor "0,0,0"
+font "Tahoma,10,1"
+)
+frameColMva (MVa
+alignment 0
+cellColor "0,0,65535"
+fontColor "65535,65535,65535"
+font "Tahoma,10,1"
+)
+propRowMva (MVa
+alignment 0
+cellColor "0,49152,49152"
+fontColor "0,0,0"
+font "Tahoma,10,1"
+)
+groupRowMva (MVa
+alignment 0
+cellColor "62965,57054,46003"
+fontColor "0,0,0"
+font "Tahoma,10,1"
+)
+netRowMva (MVa
+cellColor "65535,65535,65535"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+)
+uid 17,0
+)
+lastUid 92064,0
+genericsCommonDM (CommonDM
+ldm (LogicalDM
+emptyRow *464 (LEmptyRow
+)
+uid 747,0
+optionalChildren [
+*465 (RefLabelRowHdr
+)
+*466 (TitleRowHdr
+)
+*467 (FilterRowHdr
+)
+*468 (RefLabelColHdr
+tm "RefLabelColHdrMgr"
+)
+*469 (RowExpandColHdr
+tm "RowExpandColHdrMgr"
+)
+*470 (GroupColHdr
+tm "GroupColHdrMgr"
+)
+*471 (NameColHdr
+tm "GenericNameColHdrMgr"
+)
+*472 (TypeColHdr
+tm "GenericTypeColHdrMgr"
+)
+*473 (InitColHdr
+tm "GenericValueColHdrMgr"
+)
+*474 (PragmaColHdr
+tm "GenericPragmaColHdrMgr"
+)
+*475 (EolColHdr
+tm "GenericEolColHdrMgr"
+)
+*476 (LogGeneric
+generic (GiElement
+name "g_add_size"
+type "integer"
+value "16"
+)
+uid 72798,0
+)
+]
+)
+pdm (PhysicalDM
+displayShortBounds 1
+editShortBounds 1
+uid 759,0
+optionalChildren [
+*477 (Sheet
+sheetRow (SheetRow
+headerVa (MVa
+cellColor "49152,49152,49152"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+)
+cellVa (MVa
+cellColor "65535,65535,65535"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+)
+groupVa (MVa
+cellColor "39936,56832,65280"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+)
+emptyMRCItem *478 (MRCItem
+litem &464
+pos 0
+dimension 20
+)
+uid 761,0
+optionalChildren [
+*479 (MRCItem
+litem &465
+pos 0
+dimension 20
+uid 762,0
+)
+*480 (MRCItem
+litem &466
+pos 1
+dimension 23
+uid 763,0
+)
+*481 (MRCItem
+litem &467
+pos 2
+hidden 1
+dimension 20
+uid 764,0
+)
+*482 (MRCItem
+litem &476
+pos 0
+dimension 20
+uid 72797,0
+)
+]
+)
+sheetCol (SheetCol
+propVa (MVa
+cellColor "0,49152,49152"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+textAngle 90
+)
+uid 765,0
+optionalChildren [
+*483 (MRCItem
+litem &468
+pos 0
+dimension 20
+uid 766,0
+)
+*484 (MRCItem
+litem &470
+pos 1
+dimension 50
+uid 767,0
+)
+*485 (MRCItem
+litem &471
+pos 2
+dimension 100
+uid 768,0
+)
+*486 (MRCItem
+litem &472
+pos 3
+dimension 100
+uid 769,0
+)
+*487 (MRCItem
+litem &473
+pos 4
+dimension 50
+uid 770,0
+)
+*488 (MRCItem
+litem &474
+pos 5
+dimension 50
+uid 771,0
+)
+*489 (MRCItem
+litem &475
+pos 6
+dimension 80
+uid 772,0
+)
+]
+)
+fixedCol 3
+fixedRow 2
+name "Ports"
+uid 760,0
+vaOverrides [
+]
+)
+]
+)
+uid 746,0
+type 1
+)
+activeModelName "IbdDiag"
+)

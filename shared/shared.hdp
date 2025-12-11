@@ -1,0 +1,35 @@
+[hds_settings]
+version = 1
+project_description = The standard HDS shared project
+
+[hds]
+moduleware             = $HDS_HOME/hdl_libs/moduleware
+ieee                   = $HDS_HOME/hdl_libs/ieee/hds
+std                    = $HDS_HOME/hdl_libs/std/hds
+std_developerskit      = $HDS_HOME/hdl_libs/std_developerskit/hds
+synopsys               = $HDS_HOME/hdl_libs/synopsys/hds
+verilog                = $HDS_HOME/hdl_libs/verilog/hds
+hds_package_library    = $HDS_HOME/hdl_libs/hds_package_library/hds
+renoir_package_library = $HDS_HOME/hdl_libs/renoir_package_library/hds
+vital2000              = $HDS_HOME/hdl_libs/vital2000/hds
+
+[hdl]
+ieee                   = $HDS_HOME/hdl_libs/ieee/hdl
+std                    = $HDS_HOME/hdl_libs/std/hdl
+std_developerskit      = $HDS_HOME/hdl_libs/std_developerskit/hdl
+synopsys               = $HDS_HOME/hdl_libs/synopsys/hdl
+verilog                = $HDS_HOME/hdl_libs/verilog/hdl
+hds_package_library    = $HDS_HOME/hdl_libs/hds_package_library/hdl
+renoir_package_library = $HDS_HOME/hdl_libs/renoir_package_library/hdl
+vital2000              = $HDS_HOME/hdl_libs/vital2000/hdl
+
+[library_type]
+moduleware             = standard
+ieee                   = standard
+std                    = standard 
+std_developerskit      = standard 
+synopsys               = standard
+verilog                = standard
+vital2000              = standard
+hds_package_library    = standard
+renoir_package_library = standard
